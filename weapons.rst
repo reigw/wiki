@@ -33,12 +33,23 @@ additional weapons with Power. Weapons can be selected with the mouse wheel,
 ``[`` and ``]``, or the number keys ``1`` through ``9``. The left mouse button
 fires the selected weapon. These are the manual's default controls.
 
+Secondary actions
+-----------------
+
+The right mouse button activates the selected weapon's secondary action by
+default. Secondary actions include aiming down sights, alternate attacks,
+and utility actions. The action depends on the weapon.
+
+``secondary-action`` records each weapon's secondary action. ``Unknown``
+marks an action that remains to be documented, including whether that weapon
+has one.
+
 Comparison
 ----------
 
 .. igw:statistics::
    :type: weapon
-   :columns: clip-size, weight, deathmatch-points
+   :columns: clip-size, weight, secondary-action, deathmatch-points
 
 Definitions
 -----------
@@ -47,15 +58,19 @@ Definitions
    :stats:
       clip-size: 1
       weight: 1
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_bazooka.txt``.
 
    @TODO: Identify this weapon's manual counterpart, including its relationship
    to :igw:weapon:`rge`. Both scripts reference a 40 RTE view model.
 
+   @TODO: Document this weapon's secondary action, if available.
+
 .. igw:weapon:: detonator
    :stats:
       weight: 2
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_detonator.txt``.
 
@@ -66,6 +81,8 @@ Definitions
    @TODO: Verify that this script ID is the satchel detonator described in the
    manual and establish its transmission range.
 
+   @TODO: Document this weapon's secondary action, if available.
+
 .. igw:weapon:: dynamite
    :name: Dynamite
    :stats:
@@ -74,12 +91,15 @@ Definitions
       deathmatch-points: 75
       acquisition: Map pickup; not purchasable
       map-availability: Specific locations on all maps
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_dynamite.txt``.
 
    The manual's ``Arsenal / Dynamite`` entry describes explosives made with a
    special Atelian composition for particularly strong blasts. Dynamite cannot
    be purchased and is collected at designated locations on maps.
+
+   @TODO: Document this weapon's secondary action, if available.
 
 .. igw:weapon:: fthrower
    :name: Flamethrower - Salamander Flamethrower
@@ -88,6 +108,7 @@ Definitions
       weight: 6
       deathmatch-points: 55
       documented-range: Approximately 20 feet
+      secondary-action: Dispense fuel to form an ignitable puddle
 
    Source: ``base/scripts/weapon_fthrower.txt``.
 
@@ -102,8 +123,11 @@ Definitions
    :stats:
       clip-size: 0
       weight: 2
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_grenade.txt``.
+
+   @TODO: Document this weapon's secondary action, if available.
 
 .. igw:weapon:: hmg
    :name: Heavy Machine Gun - Pratorian Heavy Machine Gun
@@ -112,6 +136,7 @@ Definitions
       weight: 6
       deathmatch-points: 75
       deployment-required: Yes
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_hmg.txt``.
 
@@ -124,12 +149,15 @@ Definitions
    effective against infantry squads, while the complicated belt-feed system
    makes reloading slow.
 
+   @TODO: Document this weapon's secondary action, if available.
+
 .. igw:weapon:: hrifle
    :name: Shotgun - Chimera Scattergun
    :stats:
       clip-size: 8
       weight: 5
       deathmatch-points: 40
+      secondary-action: Fire an incendiary burst
 
    Source: ``base/scripts/weapon_hrifle.txt``.
 
@@ -143,6 +171,7 @@ Definitions
    :stats:
       weight: 1
       deathmatch-points: 120
+      secondary-action: Stab
 
    Source: ``base/scripts/weapon_knife.txt``.
 
@@ -155,6 +184,7 @@ Definitions
       clip-size: 0
       weight: 4
       deathmatch-points: 10
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_landmine.txt``.
 
@@ -166,12 +196,15 @@ Definitions
    @TODO: Establish the simultaneous mine placement limit mentioned by the
    manual.
 
+   @TODO: Document this weapon's secondary action, if available.
+
 .. igw:weapon:: lmg2
    :name: Light Machine Gun - Vampire Submachine Gun
    :stats:
       clip-size: 50
       weight: 4
       deathmatch-points: 30
+      secondary-action: Aim down sights
 
    Source: ``base/scripts/weapon_lmg2.txt``.
 
@@ -185,6 +218,7 @@ Definitions
       clip-size: 12
       weight: 2
       deathmatch-points: 65
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_lpistol.txt``.
 
@@ -192,12 +226,15 @@ Definitions
    describes an old Kathos handgun with an ornate design and a complicated
    firing mechanism. That mechanism makes it prone to wear and poor accuracy.
 
+   @TODO: Document this weapon's secondary action, if available.
+
 .. igw:weapon:: lrifle
    :name: Musket - Kham Hunting Rifle
    :stats:
       clip-size: 1
       weight: 3
       deathmatch-points: 35
+      secondary-action: Aim down sights
 
    Source: ``base/scripts/weapon_lrifle.txt``.
 
@@ -211,6 +248,7 @@ Definitions
       clip-size: 30
       weight: 6
       deathmatch-points: 25
+      secondary-action: Fire the attached grenade launcher
 
    Source: ``base/scripts/weapon_machinegun.txt``.
 
@@ -222,13 +260,17 @@ Definitions
 .. igw:weapon:: map
    :stats:
       weight: 1
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_map.txt``.
+
+   @TODO: Document this weapon's secondary action, if available.
 
 .. igw:weapon:: medkit
    :name: Med Kit
    :stats:
       weight: 1
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_medkit.txt``.
 
@@ -238,12 +280,17 @@ Definitions
    @TODO: Document the Med Kit's effects and usage requirements; this manual
    entry only explains how access is granted.
 
+   @TODO: Document this weapon's secondary action, if available.
+
 .. igw:weapon:: minigun
    :stats:
       clip-size: 250
       weight: 6
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_minigun.txt``.
+
+   @TODO: Document this weapon's secondary action, if available.
 
 .. igw:weapon:: molotov
    :name: Molotov
@@ -251,12 +298,15 @@ Definitions
       clip-size: 0
       weight: 3
       deathmatch-points: 100
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_molotov.txt``.
 
    The manual's ``Arsenal / Molotov`` entry describes improvised incendiary
    bombs made from glass bottles, alcohol, and a wick. Atelians use them to
    set groups of Confederate infantry on fire.
+
+   @TODO: Document this weapon's secondary action, if available.
 
 .. igw:weapon:: radio
    :name: Propaganda Radio
@@ -265,6 +315,7 @@ Definitions
       weight: 4
       acquisition: Map pickup; not purchasable
       map-availability: Certain maps
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_radio.txt``.
 
@@ -275,12 +326,15 @@ Definitions
 
    @TODO: Establish the broadcast effect's radius and duration.
 
+   @TODO: Document this weapon's secondary action, if available.
+
 .. igw:weapon:: rge
    :name: 40 RTE - "Forty"
    :stats:
       clip-size: 1
       weight: 5
       deathmatch-points: 40
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_rge.txt``.
 
@@ -292,6 +346,8 @@ Definitions
    ``rge`` script names a 40 RTE world model, while :igw:weapon:`bazooka` also
    references a 40 RTE view model.
 
+   @TODO: Document this weapon's secondary action, if available.
+
 .. igw:weapon:: rocketlauncher
    :name: Rocket Launcher
    :stats:
@@ -301,6 +357,7 @@ Definitions
       acquisition: Map pickup; not purchasable
       map-availability: Certain maps
       firestorm-duration: 20 seconds
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_rocketlauncher.txt``.
 
@@ -310,12 +367,15 @@ Definitions
    ``Game Modes / Scorched Earth Mode`` lists it among that mode's additional
    weapons.
 
+   @TODO: Document this weapon's secondary action, if available.
+
 .. igw:weapon:: satchel
    :name: Satchel Charge
    :stats:
       clip-size: 0
       weight: 3
       deathmatch-points: 50
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_satchel.txt``.
 
@@ -324,11 +384,16 @@ Definitions
    it manually and remain within the :igw:weapon:`detonator`'s limited signal
    range.
 
+   @TODO: Document this weapon's secondary action, if available.
+
 .. igw:weapon:: shield
    :stats:
       weight: 2
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_shield.txt``.
+
+   @TODO: Document this weapon's secondary action, if available.
 
 .. igw:weapon:: sniper
    :name: Sniper Rifle - Falcon Heavy Sniper Rifle
@@ -336,6 +401,7 @@ Definitions
       clip-size: 7
       weight: 5
       deathmatch-points: 35
+      secondary-action: Aim through the scope
 
    Source: ``base/scripts/weapon_sniper.txt``.
 
@@ -351,6 +417,7 @@ Definitions
       deathmatch-points: 40
       acquisition: Map pickup; not purchasable
       map-availability: Certain maps
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_suicide.txt``.
 
@@ -358,23 +425,32 @@ Definitions
    attack in which an Atelian carries strapped-on explosives into a group of
    enemy troops and detonates them. It cannot be purchased.
 
+   @TODO: Document this weapon's secondary action, if available.
+
 .. igw:weapon:: sword
    :stats:
       weight: 1
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_sword.txt``.
+
+   @TODO: Document this weapon's secondary action, if available.
 
 .. igw:weapon:: templarmg
    :stats:
       clip-size: 250
       weight: 6
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_templarmg.txt``.
+
+   @TODO: Document this weapon's secondary action, if available.
 
 .. igw:weapon:: toolkit
    :name: Wrench
    :stats:
       weight: 1
+      secondary-action: Unknown
 
    Source: ``base/scripts/weapon_toolkit.txt``.
 
@@ -384,3 +460,5 @@ Definitions
    without giving the number.
 
    @TODO: Verify the manual's Wrench name against the ``toolkit`` script ID.
+
+   @TODO: Document this weapon's secondary action, if available.
