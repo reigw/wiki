@@ -1,5 +1,5 @@
-Wiki Metadata
-=============
+Definitions
+===========
 
 The local ``igw`` Sphinx domain treats reStructuredText definitions as the
 entity database. Define each entity once. Infoboxes, lists, statistics tables,

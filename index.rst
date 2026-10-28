@@ -12,13 +12,22 @@ Wiki for the game ``Iron Grip: Warlord`` (``IGW``) and it's reverse engineering 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: The Game
 
-   weapons
+   difficulties
    enemies
    buildings
-   difficulties
+   weapons
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Internals
+
    cvars
    file-formats
-   igw
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Wiki
+
+   igw
