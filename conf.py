@@ -32,3 +32,9 @@ exclude_patterns = [
 html_theme = "alabaster"
 html_static_path = ["_static"]
 html_favicon = "_static/favicon.ico"
+
+# Apply the palette after the theme's styles.
+html_css_files = ["palette.css"]
+
+# Use syntax highlighting suitable for dark backgrounds.
+pygments_style = "monokai"
