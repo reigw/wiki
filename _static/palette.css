@@ -27,15 +27,15 @@
   --accent-gold: #d7ae76;
 }
 
-/* Page background and body text. */
+/* Keep the sidebar and content on the same page background. */
 body,
-div.body {
+div.body,
+div.sphinxsidebar {
   background-color: var(--background);
   color: var(--text);
 }
 
-/* Navigation and sidebar. */
-div.sphinxsidebar,
+/* Navigation bars. */
 div.related {
   background-color: var(--background-dark);
   color: var(--text);
