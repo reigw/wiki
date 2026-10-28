@@ -72,6 +72,13 @@ div.related a:hover {
   border-bottom-color: currentColor;
 }
 
+/* Override Alabaster's light code-block background for the dark palette. */
+pre,
+.highlight {
+  background-color: var(--surface);
+  color: var(--text);
+}
+
 /* Panels and inline code. */
 div.admonition,
 div.topic,
