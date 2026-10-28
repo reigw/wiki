@@ -5,18 +5,6 @@ Entries without one of the prefixes used by the other reference pages.
 
 See :doc:`../cvars` for flags and skill settings.
 
-.. igw:cvar:: control-character-name
-   :name: "\r \u000e mo \f h \u000e \f k"
-   :stats:
-      flags: None listed
-
-   The name is displayed as a JSON string with escaped control characters.
-   The quotes and escape sequences are a representation of the name,
-   rather than literal characters to enter in the console.
-
-   @TODO: Identify the origin and purpose of this entry and verify whether
-   it is a deliberately registered cvar or a malformed runtime entry.
-
 .. igw:cvar:: activeaction
    :name: activeAction
    :stats:
