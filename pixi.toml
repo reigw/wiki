@@ -1,5 +1,5 @@
 [workspace]
-authors = ["Vorschreibung <vorschreibung@gmail.com>"]
+authors = ["REIGW Team"]
 channels = ["conda-forge"]
 name = "igw-wiki"
 platforms = ["linux-64"]
