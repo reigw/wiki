@@ -31,6 +31,13 @@ exclude_patterns = [
 
 html_theme = "alabaster"
 html_static_path = ["_static"]
+
+# Display the project name below the sidebar logo.
+html_theme_options = {
+    "logo": "logo.png",
+    "logo_name": True,
+}
+
 html_favicon = "_static/favicon.ico"
 
 # Apply the palette after the theme's styles.
