@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "igw-wiki"
+project = "reigw-wiki"
 copyright = "2026, REIGW Team"
 author = "REIGW Team"
 release = "0.1"

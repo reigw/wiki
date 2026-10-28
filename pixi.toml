@@ -1,7 +1,7 @@
 [workspace]
 authors = ["REIGW Team"]
 channels = ["conda-forge"]
-name = "igw-wiki"
+name = "reigw-wiki"
 platforms = ["linux-64"]
 version = "0.1.0"
 
