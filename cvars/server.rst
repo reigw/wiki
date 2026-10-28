@@ -56,6 +56,7 @@ See :doc:`../cvars` for flags and skill settings.
 .. igw:cvar:: sv-difficulty
    :name: sv_difficulty
    :summary: Selects map difficulty: 0 is Easy, 1 is Medium, 2 is Hard, 3 is Brute, and 4 is God. A map load is required for a change to take effect.
+   :related: difficulty:easy, difficulty:medium, difficulty:hard, difficulty:brute, difficulty:god
    :stats:
       flags: CVAR_SERVERINFO, CVAR_ARCHIVE, CVAR_LATCH
 

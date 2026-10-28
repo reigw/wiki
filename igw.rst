@@ -10,7 +10,8 @@ Definitions
 
 The definition directives are ``igw:weapon``, ``igw:upgrade``,
 ``igw:file-extension``, ``igw:enemy``, ``igw:level``, ``igw:faction``,
-``igw:building``, ``igw:cvar``, and ``igw:entity``. All accept the same options.
+``igw:building``, ``igw:difficulty``, ``igw:cvar``, and ``igw:entity``. All
+accept the same options.
 
 Each definition takes a stable, case-sensitive ID containing lowercase ASCII
 letters, digits, and single internal hyphens. IDs are unique within their type,
@@ -34,6 +35,10 @@ their console spelling in ``:name:``. For example, ``cg_drawGun`` has the ID
 
 Cvars participate in infoboxes, references, lists, statistics, and backlinks
 like the other entity types. Use ``:type: cvar`` to filter a view to cvars.
+
+Define difficulty levels with ``igw:difficulty`` and reference them with
+``:igw:difficulty:`easy``` or another difficulty ID. Use ``:type: difficulty``
+to filter lists and statistics to difficulties.
 
 The following examples are illustrative authoring syntax, not game data:
 

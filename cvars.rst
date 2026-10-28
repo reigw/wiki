@@ -90,10 +90,12 @@ value until the pending value takes effect.
 Skill settings
 --------------
 
-Skill values are grouped into a base setting and Easy, Medium, Hard, Brute,
-and God difficulty settings. Each value represents a configuration setting;
-engine defaults and allowed values remain to be documented where marked
-with ``@TODO``. A missing difficulty setting leaves the value unspecified.
+Skill values are grouped into a base setting and :igw:difficulty:`easy`,
+:igw:difficulty:`medium`, :igw:difficulty:`hard`, :igw:difficulty:`brute`,
+and :igw:difficulty:`god` difficulty settings. Each value represents a
+configuration setting; engine defaults and allowed values remain to be
+documented where marked with ``@TODO``. A missing difficulty setting leaves
+the value unspecified.
 
 .. important::
 

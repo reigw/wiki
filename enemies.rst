@@ -2,7 +2,8 @@ Enemies
 =======
 
 Enemy settings vary with the difficulty selected through
-:igw:cvar:`sv-difficulty`: Easy, Medium, Hard, Brute, or God.
+:igw:cvar:`sv-difficulty`: :igw:difficulty:`easy`, :igw:difficulty:`medium`,
+:igw:difficulty:`hard`, :igw:difficulty:`brute`, or :igw:difficulty:`god`.
 The health comparison and each enemy's infobox show the configured health
 for all five difficulties, with the base setting listed separately.
 

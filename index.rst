@@ -17,6 +17,7 @@ Wiki for the game ``Iron Grip: Warlord`` (``IGW``) and it's reverse engineering 
    weapons
    enemies
    buildings
+   difficulties
    cvars
    file-formats
    igw

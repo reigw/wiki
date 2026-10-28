@@ -22,9 +22,10 @@ and how player upgrades affect building and repair speed.
 Difficulty settings
 -------------------
 
-Building settings vary with :igw:cvar:`sv-difficulty`: Easy, Medium, Hard,
-Brute, or God. The base setting is listed separately. Health comparisons
-and infoboxes use level-one health for turrets.
+Building settings vary with :igw:cvar:`sv-difficulty`: :igw:difficulty:`easy`,
+:igw:difficulty:`medium`, :igw:difficulty:`hard`, :igw:difficulty:`brute`, or
+:igw:difficulty:`god`. The base setting is listed separately. Health
+comparisons and infoboxes use level-one health for turrets.
 
 Tables preserve the raw configured values. Build times, upgrade times,
 attack rates, distances, and support settings have no units assigned here
