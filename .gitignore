@@ -1,3 +1,4 @@
 /.pixi/
 /tmp/
 /_build/
+__pycache__/

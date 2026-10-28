@@ -17,4 +17,5 @@ documentation for details.
 
    file-formats
    scripts/waves
+   igw
 

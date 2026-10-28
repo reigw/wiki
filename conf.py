@@ -14,7 +14,12 @@ release = "0.1"
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+import sys
+from pathlib import Path
+
+# Load the local domain without installing a separate Python package.
+sys.path.insert(0, str(Path(__file__).parent / "_ext"))
+extensions = ["igw"]
 
 templates_path = ["_templates"]
 exclude_patterns = [
@@ -22,6 +27,7 @@ exclude_patterns = [
     ".pixi",
     "Thumbs.db",
     "_build",
+    "_ext",
     "tmp",
 ]
 
