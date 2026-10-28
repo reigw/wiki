@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-REIGW - Wiki
-============
+REIGWiki
+========
 
-Wiki for the game ``Iron Grip: Warlord`` (``IGW``) and it's reverse engineering project
+Wiki for the game ``Iron Grip: Warlord`` (``IGW``) `Version 1.14` provided by it's reverse engineering project
 `REIGW <https://reigw.github.io/>`_.
 
 
