@@ -1,5 +1,5 @@
-Console variables
-=================
+CVARS
+=====
 
 Console variables expose game, client, and engine settings and runtime state.
 The reference pages group variables by their name prefix and list them
