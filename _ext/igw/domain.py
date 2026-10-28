@@ -19,7 +19,7 @@ from .views import PendingView, ViewDirective
 
 
 LOGGER = logging.getLogger(__name__)
-KINDS = ("weapon", "upgrade", "file-extension", "enemy", "level", "faction", "building", "entity")
+KINDS = ("weapon", "upgrade", "file-extension", "enemy", "level", "faction", "building", "cvar", "entity")
 IDENTIFIER = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*\Z")
 
 

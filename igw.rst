@@ -10,12 +10,30 @@ Definitions
 
 The definition directives are ``igw:weapon``, ``igw:upgrade``,
 ``igw:file-extension``, ``igw:enemy``, ``igw:level``, ``igw:faction``,
-``igw:building``, and ``igw:entity``. All accept the same options.
+``igw:building``, ``igw:cvar``, and ``igw:entity``. All accept the same options.
 
 Each definition takes a stable, case-sensitive ID containing lowercase ASCII
 letters, digits, and single internal hyphens. IDs are unique within their type,
 across the entire project. Display names and document paths can change without
 changing the ID. A fully qualified target is written ``type:id``.
+
+Cvars use lowercase IDs with underscores replaced by hyphens, and preserve
+their console spelling in ``:name:``. For example, ``cg_drawGun`` has the ID
+``cg-drawgun``. Its definition and reference syntax are:
+
+.. code-block:: rst
+
+   .. igw:cvar:: cg-drawgun
+      :name: cg_drawGun
+      :stats:
+         flags: CVAR_ARCHIVE
+
+      Documentation of the console variable goes here.
+
+   :igw:cvar:`cg-drawgun`
+
+Cvars participate in infoboxes, references, lists, statistics, and backlinks
+like the other entity types. Use ``:type: cvar`` to filter a view to cvars.
 
 The following examples are illustrative authoring syntax, not game data:
 
