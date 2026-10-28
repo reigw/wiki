@@ -1,13 +1,19 @@
 File formats
 ============
 
-This page documents Iron Grip: Warlord's BSP, AAS, RCD, and spline file formats.
+This section documents Iron Grip: Warlord's BSP, AAS, RCD, spline, and XML wave
+script file formats.
 Unconfirmed interpretations are marked explicitly.
 
-All offsets and lengths below are in bytes. The documented integers use
-little-endian byte order and occupy four bytes unless stated otherwise. Floating
-point examples use IEEE 754 binary32. A *lump* is a section addressed by an offset
-and length stored in the file header.
+.. toctree::
+   :maxdepth: 1
+
+   scripts/waves
+
+For the binary formats below, all offsets and lengths are in bytes. The
+documented integers use little-endian byte order and occupy four bytes unless
+stated otherwise. Floating point examples use IEEE 754 binary32. A *lump* is a
+section addressed by an offset and length stored in the file header.
 
 BSP: compiled map
 -----------------

@@ -17,6 +17,5 @@ documentation for details.
 
    weapons
    file-formats
-   scripts/waves
    igw
 
