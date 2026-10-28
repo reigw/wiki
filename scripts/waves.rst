@@ -13,40 +13,8 @@ been verified. Remaining gaps are marked ``@TODO``.
 Files and difficulty variants
 -----------------------------
 
-Filenames use a map name, optionally followed by a difficulty suffix:
-``<map>.xml`` or ``<map>-<difficulty>.xml``. The suffixes correspond to the
-companion skill configuration names and the game's difficulty labels:
-
-.. list-table:: Filename conventions
-   :header-rows: 1
-
-   * - Suffix
-     - Difficulty
-     - Example
-   * - ``-e``
-     - Easy
-     - ``<map>-e.xml``
-   * - ``-m``
-     - Medium
-     - ``<map>-m.xml``
-   * - ``-h``
-     - Hard
-     - ``<map>-h.xml``
-   * - ``-b``
-     - Brute
-     - ``<map>-b.xml``
-   * - ``-g``
-     - God
-     - ``<map>-g.xml``
-   * - None
-     - Unsuffixed definition; selection rules unverified
-     - ``<map>.xml``
-
-The unsuffixed files contain their own values and should be treated as separate
-definitions.
-
-@TODO: Verify how the loader selects difficulty variants, when it uses an
-unsuffixed file, and what happens when a requested file is missing.
+See :ref:`difficulty-file-naming` for filename patterns, difficulty suffixes,
+and unresolved selection rules for wave scripts.
 
 Document structure
 ------------------

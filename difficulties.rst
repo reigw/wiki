@@ -26,15 +26,32 @@ behavior unresolved.
 applicability. Document difficulty effects that are not represented by the
 skill settings.
 
-Selection and profiles
-----------------------
+.. _difficulty-file-naming:
 
-``selection-value`` is the value of ``sv_difficulty``. ``skill-config`` names
-the corresponding difficulty profile.
+File naming scheme
+------------------
+
+Difficulty-specific skill configurations and :doc:`wave scripts <scripts/waves>`
+append a difficulty suffix to the base name, before the file extension:
+``<name><suffix>.<extension>``. For example, ``skill-e.cfg`` is the Easy skill
+configuration, and ``<map>-e.xml`` is an Easy wave definition. Wave filenames
+use the map name as their base name: ``<map>.xml`` or
+``<map><suffix>.xml``.
+
+``filename-suffix`` includes the separating hyphen. ``selection-value`` is
+the value of ``sv_difficulty``, and ``skill-config`` names the corresponding
+difficulty profile.
 
 .. igw:statistics::
    :type: difficulty
-   :columns: selection-value, skill-config
+   :columns: selection-value, filename-suffix, skill-config
+
+Unsuffixed wave files, ``<map>.xml``, contain their own values and are
+separate definitions. An unsuffixed filename does not establish a difficulty
+level or confirm that the file is used as a fallback.
+
+@TODO: Verify how the loader selects difficulty variants, when it uses an
+unsuffixed file, and what happens when a requested file is missing.
 
 Definitions
 -----------
@@ -44,6 +61,7 @@ Definitions
    :related: cvar:sv-difficulty
    :stats:
       selection-value: 0
+      filename-suffix: -e
       skill-config: skill-e.cfg
 
 .. igw:difficulty:: medium
@@ -51,6 +69,7 @@ Definitions
    :related: cvar:sv-difficulty
    :stats:
       selection-value: 1
+      filename-suffix: -m
       skill-config: skill-m.cfg
 
 .. igw:difficulty:: hard
@@ -58,6 +77,7 @@ Definitions
    :related: cvar:sv-difficulty
    :stats:
       selection-value: 2
+      filename-suffix: -h
       skill-config: skill-h.cfg
 
 .. igw:difficulty:: brute
@@ -65,6 +85,7 @@ Definitions
    :related: cvar:sv-difficulty
    :stats:
       selection-value: 3
+      filename-suffix: -b
       skill-config: skill-b.cfg
 
 .. igw:difficulty:: god
@@ -72,6 +93,7 @@ Definitions
    :related: cvar:sv-difficulty
    :stats:
       selection-value: 4
+      filename-suffix: -g
       skill-config: skill-g.cfg
 
 Multiplayer scaling
