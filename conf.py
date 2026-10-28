@@ -19,7 +19,7 @@ from pathlib import Path
 
 # Load the local domain without installing a separate Python package.
 sys.path.insert(0, str(Path(__file__).parent / "_ext"))
-extensions = ["igw"]
+extensions = ["igw", "sphinx_rtd_theme"]
 
 templates_path = ["_templates"]
 exclude_patterns = [
@@ -35,18 +35,20 @@ exclude_patterns = [
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = "alabaster"
+html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
 
-# Display the project name below the sidebar logo.
+# Show only the logo in the sidebar's home link.
+html_logo = "_static/logo.png"
 html_theme_options = {
-    "logo": "logo.png",
-    "logo_name": True,
+    "logo_only": True,
+    # Keep page scroll restoration from also moving the sidebar on reload.
+    "sticky_navigation": False,
 }
 
 html_favicon = "_static/favicon.ico"
 
-# Hide the Sphinx and Alabaster footer credit.
+# Hide the Sphinx and theme footer credit.
 html_show_sphinx = False
 
 # Apply the palette after the theme's styles.

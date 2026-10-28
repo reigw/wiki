@@ -27,52 +27,83 @@
   --accent-gold: #d7ae76;
 }
 
-/* Keep the sidebar and content on the same page background. */
+/* Keep the page and content backgrounds consistent. */
 body,
-div.body,
-div.sphinxsidebar {
+.wy-nav-content-wrap,
+.wy-nav-content {
   background-color: var(--background);
   color: var(--text);
 }
 
-/* Navigation bars. */
-div.related {
+/* Use the darker navigation background across the entire sidebar. */
+.wy-nav-side,
+.wy-side-nav-search,
+.wy-nav-top {
   background-color: var(--background-dark);
   color: var(--text);
 }
 
-div.sphinxsidebar p,
-div.sphinxsidebar ul,
-div.footer,
-div.footer a {
+/* Reserve the logo's space before it loads so the navigation does not shift. */
+.wy-side-nav-search > a img.logo {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.wy-menu-vertical a,
+footer,
+footer a {
   color: var(--text-muted);
 }
 
 /* Content and sidebar headings. */
-div.body :is(h1, h2, h3, h4, h5, h6),
-div.sphinxsidebar :is(h1, h2, h3, h4),
-div.sphinxsidebar :is(h1, h2, h3, h4) a {
+.rst-content :is(h1, h2, h3, h4, h5, h6),
+.wy-menu-vertical p.caption,
+.wy-side-nav-search > a,
+.wy-nav-top a {
   color: var(--text-bright);
 }
 
-/* Links, including Alabaster's dotted underlines. */
+/* Links use the interactive accent color. */
 a,
-a.reference,
-div.sphinxsidebar a,
-div.related a {
+a.reference {
   color: var(--accent);
   border-bottom-color: currentColor;
 }
 
 a:hover,
 a.reference:hover,
-div.sphinxsidebar a:hover,
-div.related a:hover {
+.wy-menu-vertical a:hover {
   color: var(--accent-gold);
   border-bottom-color: currentColor;
 }
 
-/* Override Alabaster's light code-block background for the dark palette. */
+/* Keep expanded navigation branches readable on the dark palette. */
+.wy-menu-vertical li.current,
+.wy-menu-vertical li.current a,
+.wy-menu-vertical li[class*="toctree-l"].current > a,
+.wy-menu-vertical li[class*="toctree-l"].current li[class*="toctree-l"] > a,
+.wy-menu-vertical li.on a {
+  background-color: var(--surface);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.wy-menu-vertical a:hover,
+.wy-menu-vertical li.current a:hover,
+.wy-menu-vertical li[class*="toctree-l"].current > a:hover,
+.wy-menu-vertical li[class*="toctree-l"].current li[class*="toctree-l"] > a:hover,
+.wy-menu-vertical li.on a:hover {
+  background-color: var(--border);
+  color: var(--text-bright);
+}
+
+.wy-menu-vertical li button.toctree-expand,
+.wy-menu-vertical li.current > a button.toctree-expand {
+  color: var(--text-muted);
+}
+
+/* Override the theme's light code-block background for the dark palette. */
 pre,
 .highlight {
   background-color: var(--surface);
@@ -80,28 +111,37 @@ pre,
 }
 
 /* Panels and inline code. */
-div.admonition,
-div.topic,
-code,
-tt,
-a:hover code,
-a:hover tt {
+.rst-content .admonition,
+.rst-content .topic,
+.rst-content code,
+.rst-content tt,
+.rst-content a:hover code,
+.rst-content a:hover tt {
   background-color: var(--surface);
   color: var(--text);
   border-color: var(--border);
 }
 
 /* Tables and dividers. */
-table.docutils,
-table.docutils td,
-table.docutils th,
+.rst-content table.docutils,
+.rst-content table.docutils td,
+.rst-content table.docutils th,
 hr {
   border-color: var(--border);
   box-shadow: none;
 }
 
-table.docutils th {
+.rst-content table.docutils th,
+.rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td {
   background-color: var(--surface);
+}
+
+/* Override the theme's black text for table headings and captions. */
+.rst-content table.docutils th,
+.rst-content table.docutils caption,
+.rst-content table.field-list th,
+.rst-content table.field-list caption {
+  color: var(--text-bright);
 }
 
 /* Search fields and buttons. */
@@ -109,8 +149,21 @@ input,
 textarea,
 select,
 button,
-div.sphinxsidebar input {
+.wy-side-nav-search input[type="text"] {
   background-color: var(--surface);
   color: var(--text);
   border: 1px solid var(--border);
+}
+
+/* Match the theme's important declarations for neutral navigation buttons. */
+.btn-neutral,
+.btn-neutral:visited {
+  background-color: var(--surface) !important;
+  color: var(--text) !important;
+  border-color: var(--border);
+}
+
+.btn-neutral:hover {
+  background-color: var(--border) !important;
+  color: var(--text-bright) !important;
 }
