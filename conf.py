@@ -40,6 +40,9 @@ html_theme_options = {
 
 html_favicon = "_static/favicon.ico"
 
+# Hide the Sphinx and Alabaster footer credit.
+html_show_sphinx = False
+
 # Apply the palette after the theme's styles.
 html_css_files = ["palette.css"]
 
