@@ -9,7 +9,7 @@ Definitions
 -----------
 
 The definition directives are ``igw:weapon``, ``igw:upgrade``,
-``igw:file-extension``, ``igw:enemy``, ``igw:level``, ``igw:faction``,
+``igw:file-format``, ``igw:enemy``, ``igw:level``, ``igw:faction``,
 ``igw:building``, ``igw:difficulty``, ``igw:cvar``, and ``igw:entity``. All
 accept the same options.
 
@@ -39,6 +39,11 @@ like the other entity types. Use ``:type: cvar`` to filter a view to cvars.
 Define difficulty levels with ``igw:difficulty`` and reference them with
 ``:igw:difficulty:`easy``` or another difficulty ID. Use ``:type: difficulty``
 to filter lists and statistics to difficulties.
+
+Define file formats with ``igw:file-format`` and reference them with
+``:igw:file-format:`xml-wave-script``` for XML wave scripts. Use
+``:type: file-format`` to filter lists and statistics to file formats.
+Use format-specific IDs, since different formats can share an extension.
 
 The following examples are illustrative authoring syntax, not game data:
 

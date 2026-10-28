@@ -1,8 +1,8 @@
 File formats
 ============
 
-This section documents Iron Grip: Warlord's BSP, AAS, RCD, spline, and XML wave
-script file formats.
+This section documents Iron Grip: Warlord's BSP, AAS, RCD, spline, and
+:igw:file-format:`XML wave script <xml-wave-script>` file formats.
 Unconfirmed interpretations are marked explicitly.
 
 .. toctree::

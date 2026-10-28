@@ -1,6 +1,12 @@
 Wave scripts
 ============
 
+.. igw:file-format:: xml-wave-script
+   :name: XML wave script
+   :summary: Enemy wave definitions and map-specific settings.
+   :stats:
+      extension: .xml
+
 The XML files in ``base/scripts/waves/`` describe map-specific enemy waves,
 population limits, AI settings, and skill settings for Iron Grip: Warlord.
 Some also contain positions for spawning and placing map objects.
