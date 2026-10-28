@@ -16,6 +16,7 @@ documentation for details.
    :caption: Contents:
 
    weapons
+   cvars
    file-formats
    igw
 
