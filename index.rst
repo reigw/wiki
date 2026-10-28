@@ -7,7 +7,7 @@ REIGW - Wiki
 ============
 
 Wiki for the game ``Iron Grip: Warlord`` (``IGW``) and it's reverse engineering project
-``REIGW``.
+`REIGW <https://reigw.github.io/>`_.
 
 
 .. toctree::
