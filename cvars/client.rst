@@ -3,7 +3,7 @@ Client
 
 Entries with the ``cl_`` prefix.
 
-See :doc:`../cvars` for flags and skill settings.
+See :doc:`../cvars` for flags and :doc:`skill` for skill settings.
 
 .. igw:cvar:: cl-allowdownload
    :name: cl_allowDownload

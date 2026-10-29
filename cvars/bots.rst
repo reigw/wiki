@@ -3,7 +3,7 @@ Bots
 
 Entries with the ``bot_`` prefix.
 
-See :doc:`../cvars` for flags and skill settings.
+See :doc:`../cvars` for flags and :doc:`skill` for skill settings.
 
 .. igw:cvar:: bot-aasoptimize
    :name: bot_aasoptimize

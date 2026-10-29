@@ -3,7 +3,7 @@ Client game
 
 Entries with the ``cg_`` prefix.
 
-See :doc:`../cvars` for flags and skill settings.
+See :doc:`../cvars` for flags and :doc:`skill` for skill settings.
 
 .. igw:cvar:: cg-animspeed
    :name: cg_animspeed

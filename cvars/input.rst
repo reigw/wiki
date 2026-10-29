@@ -3,7 +3,7 @@ Input
 
 Entries with the ``in_``, ``joy_``, and ``m_`` prefixes.
 
-See :doc:`../cvars` for flags and skill settings.
+See :doc:`../cvars` for flags and :doc:`skill` for skill settings.
 
 .. igw:cvar:: in-debugjoystick
    :name: in_debugjoystick

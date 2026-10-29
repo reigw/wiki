@@ -3,7 +3,7 @@ User interface
 
 Entries with the ``ui_`` prefix.
 
-See :doc:`../cvars` for flags and skill settings.
+See :doc:`../cvars` for flags and :doc:`skill` for skill settings.
 
 .. igw:cvar:: ui-bigfont
    :name: ui_bigFont

@@ -3,7 +3,7 @@ Sound
 
 Entries with the ``s_`` prefix.
 
-See :doc:`../cvars` for flags and skill settings.
+See :doc:`../cvars` for flags and :doc:`skill` for skill settings.
 
 .. igw:cvar:: s-doppler
    :name: s_doppler

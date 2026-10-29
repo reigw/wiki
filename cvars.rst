@@ -87,20 +87,6 @@ value until the pending value takes effect.
 
 @TODO: Document the required restart for each latched variable.
 
-Skill settings
---------------
-
-Skill values are grouped into a base setting and :igw:difficulty:`easy`,
-:igw:difficulty:`medium`, :igw:difficulty:`hard`, :igw:difficulty:`brute`,
-and :igw:difficulty:`god` difficulty settings. Each value represents a
-configuration setting; engine defaults and allowed values remain to be
-documented where marked with ``@TODO``. A missing difficulty setting leaves
-the value unspecified.
-
-.. important::
-
-   Skill settings are not networked and must match on client and server.
-
 Reference pages
 ---------------
 
@@ -110,9 +96,7 @@ Reference pages
    cvars/client-game
    cvars/client
    cvars/game
-   cvars/skill-health
-   cvars/skill-combat
-   cvars/skill-other
+   cvars/skill
    cvars/renderer
    cvars/server
    cvars/bots

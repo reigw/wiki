@@ -3,7 +3,7 @@ Game
 
 Entries with the ``g_`` prefix.
 
-See :doc:`../cvars` for flags and skill settings.
+See :doc:`../cvars` for flags and :doc:`skill` for skill settings.
 
 .. igw:cvar:: g-aiscalegrenadier
    :name: g_aiScaleGrenadier

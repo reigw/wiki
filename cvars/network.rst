@@ -3,7 +3,7 @@ Network
 
 Entries with the ``net_`` prefix.
 
-See :doc:`../cvars` for flags and skill settings.
+See :doc:`../cvars` for flags and :doc:`skill` for skill settings.
 
 .. igw:cvar:: net-ip
    :name: net_ip
