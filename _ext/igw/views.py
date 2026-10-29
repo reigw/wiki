@@ -169,6 +169,46 @@ class RenderViews(SphinxPostTransform):
         box += fields
         return box
 
+    def render_skill_settings(self, domain, node):
+        """Project attached CVAR settings into one table without copying data."""
+        entity = domain.find(node["target"])
+        if entity is None:
+            return nodes.paragraph("", f"Unknown entity: {node['target']}")
+        profiles = (
+            ("Base", "base-skill-setting"), ("Easy", "easy-setting"),
+            ("Medium", "medium-setting"), ("Hard", "hard-setting"),
+            ("Brute", "brute-setting"), ("God", "god-setting"),
+        )
+        table = nodes.table(classes=["igw-statistics", "igw-skill-settings"])
+        table += nodes.title("", "Difficulty settings")
+        # Titled tables need an ID for the caption's permalink.
+        self.document.set_id(table)
+        group = nodes.tgroup(cols=len(profiles) + 1)
+        table += group
+        for column in range(len(profiles) + 1):
+            group += nodes.colspec(colwidth=1)
+        head = nodes.thead()
+        row = nodes.row()
+        for label in ("Setting", *(label for label, key in profiles)):
+            row += nodes.entry("", nodes.paragraph("", label))
+        head += row
+        group += head
+        body = nodes.tbody()
+        for relation, target in entity.relations:
+            if relation != "skill-cvar":
+                continue
+            cvar = domain.find(target, "cvar")
+            row = nodes.row()
+            link = entity_link(cvar, node["docname"]) if cvar else nodes.Text(target)
+            row += nodes.entry("", nodes.paragraph("", "", link))
+            for label, key in profiles:
+                # Missing assignments do not imply inheritance from skill.cfg.
+                value = cvar.stats.get(key, "Unspecified") if cvar else "Unknown"
+                row += nodes.entry("", nodes.paragraph("", value))
+            body += row
+        group += body
+        return table
+
     def selected(self, domain, node):
         """Apply filters to current definitions, including newly added entities."""
         entities = domain.data["registry"].values()

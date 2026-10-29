@@ -50,6 +50,16 @@ def comma_list(value):
     return tuple(nonempty(item) for item in value.split(","))
 
 
+def skill_cvars(value):
+    """Read one CVAR ID per nonempty line, retaining the authored row order."""
+    targets = tuple(identifier(line) for line in value.splitlines() if line.strip())
+    if not targets:
+        raise ValueError("expected at least one skill CVAR ID")
+    if len(set(targets)) != len(targets):
+        raise ValueError("skill CVAR IDs must be unique")
+    return targets
+
+
 def statistics(value):
     """Parse literal statistics without inferring game-specific types or ranges."""
     result = {}
@@ -102,6 +112,7 @@ class EntityDirective(SphinxDirective):
         "faction": identifier,
         "upgrades": comma_list,
         "related": comma_list,
+        "skill-cvars": skill_cvars,
         "no-infobox": directives.flag,
     }
 
@@ -114,6 +125,9 @@ class EntityDirective(SphinxDirective):
                 relations.append(("faction", f"faction:{self.options['faction']}"))
             for target in self.options.get("upgrades", ()):
                 relations.append(("upgrade", f"upgrade:{identifier(target)}"))
+            # Typed relations share target validation and backlink collection.
+            for target in self.options.get("skill-cvars", ()):
+                relations.append(("skill-cvar", f"cvar:{target}"))
             for target in self.options.get("related", ()):
                 target_kind, separator, target_id = target.partition(":")
                 if not separator:
@@ -141,6 +155,13 @@ class EntityDirective(SphinxDirective):
             view = PendingView(
                 view="infobox", target=entity.key, docname=self.env.docname,
                 show_heading=False,
+            )
+            self.set_source_info(view)
+            container += view
+        if "skill-cvars" in self.options:
+            # Resolve CVAR values only after all source documents have been read.
+            view = PendingView(
+                view="skill-settings", target=entity.key, docname=self.env.docname,
             )
             self.set_source_info(view)
             container += view

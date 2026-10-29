@@ -12,7 +12,7 @@ def setup(app):
     app.connect("env-updated", update_database)
     return {
         "version": "0.1",
-        "env_version": 1,
+        "env_version": 2,
         "parallel_read_safe": True,
         "parallel_write_safe": True,
     }

@@ -73,10 +73,29 @@ of upgrade IDs. ``:related:`` takes comma-separated, fully qualified targets.
 These relationships must resolve to definitions in the project; definitions
 can appear later or in other documents.
 
+``:skill-cvars:`` attaches CVAR IDs, one per nonempty line, in table row order:
+
+.. code-block:: rst
+
+   .. igw:enemy:: example-enemy
+      :name: Example enemy
+      :skill-cvars:
+         sk-health-example-enemy
+         sk-power-example-enemy
+
+Each ID must be unique within the list and resolve to a CVAR definition.
+The option generates one difficulty table with linked CVAR names and Base,
+Easy, Medium, Hard, Brute, and God columns. Values come from the CVAR's
+``base-skill-setting`` and ``easy-setting`` through ``god-setting`` statistics.
+Missing assignments display as ``Unspecified`` without inferring fallback
+values. Keep those values on the CVAR definitions rather than repeating them
+in the attached entity's statistics or handwritten tables.
+
 Definitions produce a rubric linked to their anchor, an infobox, and their
 body content. The infobox does not repeat the name as a field.
 ``:no-infobox:`` suppresses the automatic infobox when a separate presentation
-is more useful. It does not remove the entity from the database or search.
+is more useful. It does not suppress the skill table or remove the entity
+from the database or search.
 
 References
 ----------
