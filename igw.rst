@@ -73,7 +73,8 @@ of upgrade IDs. ``:related:`` takes comma-separated, fully qualified targets.
 These relationships must resolve to definitions in the project; definitions
 can appear later or in other documents.
 
-Definitions produce an anchored name, an infobox, and their body content.
+Definitions produce a rubric linked to their anchor, an infobox, and their
+body content. The infobox does not repeat the name as a field.
 ``:no-infobox:`` suppresses the automatic infobox when a separate presentation
 is more useful. It does not remove the entity from the database or search.
 
@@ -115,6 +116,9 @@ Views query registered definitions without copying their values:
 
 ``igw:infobox`` and ``igw:backlinks`` require an entity target. Unqualified
 targets must be unique across types.
+
+Standalone infoboxes display a rubric linked to the entity's definition
+instead of a Name row.
 
 ``igw:entity-list`` and ``igw:statistics`` accept optional ``:type:`` and
 ``:faction:`` filters, combined when both are present. Without filters, they

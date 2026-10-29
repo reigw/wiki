@@ -146,9 +146,10 @@ class RenderViews(SphinxPostTransform):
         if entity is None:
             return nodes.paragraph("", f"Unknown entity: {node['target']}")
         box = nodes.container("", classes=["igw-infobox"])
+        # Standalone infoboxes supply their own heading linked to the definition.
+        if node.get("show_heading", True):
+            box += nodes.rubric("", "", entity_link(entity, node["docname"]))
         fields = nodes.field_list()
-        if not node.get("hide_name", False):
-            fields += field("Name", entity_link(entity, node["docname"]))
         fields += field("Type", entity.kind)
         if entity.summary:
             fields += field("Summary", entity.summary)

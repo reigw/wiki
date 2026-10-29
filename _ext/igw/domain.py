@@ -133,16 +133,14 @@ class EntityDirective(SphinxDirective):
         container = nodes.container("", ids=[entity.anchor], classes=["igw-entity", f"igw-{kind}"])
         self.set_source_info(container)
         self.state.document.note_explicit_target(container)
-        name_node = nodes.Text(entity.name)
-        if kind == "cvar":
-            # The cvar heading doubles as a permalink to its definition.
-            name_node = nodes.reference("", entity.name, refid=entity.anchor)
+        # Every entity heading provides a permalink to its definition.
+        name_node = nodes.reference("", entity.name, refid=entity.anchor)
         container += nodes.rubric("", "", name_node)
         if "no-infobox" not in self.options:
-            # Cvar definitions already show their name in the preceding rubric.
+            # The definition already supplies the linked heading above the box.
             view = PendingView(
                 view="infobox", target=entity.key, docname=self.env.docname,
-                hide_name=(kind == "cvar"),
+                show_heading=False,
             )
             self.set_source_info(view)
             container += view
