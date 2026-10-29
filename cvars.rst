@@ -93,19 +93,19 @@ Reference pages
 .. toctree::
    :maxdepth: 1
 
-   cvars/client-game
+   cvars/bots
    cvars/client
+   cvars/client-game
+   cvars/filesystem
    cvars/game
-   cvars/skill
+   cvars/input
+   cvars/misc
+   cvars/network
    cvars/renderer
    cvars/server
-   cvars/bots
-   cvars/interface
+   cvars/skill
    cvars/sound
-   cvars/network
-   cvars/input
-   cvars/filesystem
-   cvars/other
+   cvars/user-interface
 
 @TODO: Verify game-version applicability and document the remaining defaults,
 valid values, units, and behavior.

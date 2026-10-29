@@ -14,9 +14,9 @@ Wiki for the game ``Iron Grip: Warlord`` (``IGW``) `Version 1.14` provided by it
    :maxdepth: 2
    :caption: The Game
 
+   buildings
    difficulties
    enemies
-   buildings
    weapons
 
 .. toctree::

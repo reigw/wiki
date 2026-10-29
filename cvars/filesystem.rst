@@ -1,9 +1,7 @@
-Filesystem
-==========
+``fs_`` Filesystem
+==================
 
-Entries with the ``fs_`` prefix.
-
-See :doc:`../cvars` for flags and :doc:`skill` for skill settings.
+See :doc:`../cvars` for flags.
 
 See :doc:`../virtual-filesystem` for directory and PK3 search order. With
 the default CVAR values, the game searches one ``base`` directory beneath

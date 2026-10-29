@@ -1,9 +1,7 @@
-Game
-====
+``g_`` Game
+===========
 
-Entries with the ``g_`` prefix.
-
-See :doc:`../cvars` for flags and :doc:`skill` for skill settings.
+See :doc:`../cvars` for flags.
 
 .. igw:cvar:: g-aiscalegrenadier
    :name: g_aiScaleGrenadier

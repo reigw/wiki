@@ -1,5 +1,5 @@
-Virtual filesystem and PK3 priority
-===================================
+Virtual filesystem
+==================
 
 Iron Grip: Warlord reads game files from directories and ``.pk3`` ZIP archives
 through a shared search list. A request uses a path relative to the game
@@ -44,8 +44,8 @@ For example, ``fs_homepath/base/resources.pk3`` beats
 PK3 order
 ---------
 
-Within each directory, PK3s are searched in reverse alphabetical order, ignoring
-letter case. For example, these archives have the following relative priority:
+Within each directory, PK3s are searched in **reverse alphabetical order**, **ignoring
+letter case**. For example, these archives have the following relative priority:
 
 .. code-block:: text
 
@@ -53,19 +53,13 @@ letter case. For example, these archives have the following relative priority:
 
 Names are compared character by character, so ``textures_1.pk3`` beats
 ``textures2.pk3`` because ``_`` sorts after ``2``. The ``zpatch`` prefix has no
-special meaning. File dates and copy order do not set priority. Avoid archive
-names differing only in case; they compare equal and have no defined relative
-priority.
+special meaning. File dates and copy order **do not** set priority.
 
 The game indexes PK3s directly inside each game directory when the filesystem
-starts or restarts. It does not search subdirectories for more PK3s or unpack
-entire archives. Files inside indexed archives are read as needed. Restart the
-game after adding, removing, or renaming PK3s to rebuild the search list.
-
-A directory ending in ``.pk3dir`` is not mounted as an unpacked package. To use
-loose assets, place their paths directly under a searched game directory, such
-as ``base/scripts/ig_blend.shader``. These files retain the loose-file priority
-described above.
+starts or restarts. It **does not** search subdirectories for more PK3s or
+unpack entire archives. Files inside indexed archives are read as needed.
+Restart the game after adding, removing, or renaming PK3s to rebuild the search
+list.
 
 Whole files override
 --------------------
@@ -74,15 +68,8 @@ Only matching paths compete. A patch PK3 can contain just its changes: replacing
 ``scripts/ig_blend.shader`` leaves unrelated textures and sounds from older PK3s
 available, and a new path adds a new file.
 
-The winning file replaces the entire older file. Their contents do not merge.
-For example, if a replacement shader file contains only one edited definition,
-the other definitions from the older file at that path are unavailable. Include
-everything that must remain in that file.
-
-Different filenames remain separate virtual files. A subsystem that loads
-several files, such as shader scripts, can still read each of them. Filesystem
-priority alone does not describe how that subsystem resolves conflicting
-definitions within those different files.
+The winning file **replaces the entire** older file. Their contents **do not**
+merge.
 
 @TODO: Document shader-definition priority across differently named shader
 files.
@@ -90,8 +77,6 @@ files.
 Paths inside PK3s ignore letter case and treat ``/`` and ``\`` as equivalent
 separators. Use ``/`` in archive paths. Duplicate matching entries within one
 PK3 resolve to the last entry in the ZIP central directory; avoid duplicates.
-Loose files use the host filesystem's case handling, so keep spelling
-consistent.
 
 Pure servers
 ------------
@@ -119,22 +104,6 @@ is enabled.
 
 @TODO: Document any additional effects of restricted mode.
 
-Downloads
----------
-
-The client compares server-requested packages with the checksums of its mounted
-PK3s to find missing packages. A local archive with the expected name but the
-wrong checksum does not satisfy the request. When that name already exists, the
-download list can select a local filename with the checksum appended as eight
-hexadecimal digits: ``<name>.<checksum>.pk3``.
-
-There are no special ``dlcache`` directories in the game-directory search setup.
-Putting a PK3 in ``base/dlcache`` does not mount it; the normal PK3 scan is not
-recursive.
-
-@TODO: Document download destinations, transfer settings, and the filesystem
-restart after downloads.
-
 Inspecting the active filesystem
 --------------------------------
 
@@ -156,7 +125,7 @@ Inspecting the active filesystem
      - Opens and closes a file through the normal read path. Combined with
        ``fs_debug``, this shows which allowed copy is selected.
 
-There is no ``which`` console command. To inspect a particular file, run:
+To inspect a particular file, run:
 
 .. code-block:: text
 

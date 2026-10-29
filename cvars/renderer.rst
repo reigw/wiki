@@ -1,9 +1,7 @@
-Renderer
-========
+``r_`` Renderer
+===============
 
-Entries with the ``r_`` prefix.
-
-See :doc:`../cvars` for flags and :doc:`skill` for skill settings.
+See :doc:`../cvars` for flags.
 
 .. igw:cvar:: r-aa
    :name: r_aa

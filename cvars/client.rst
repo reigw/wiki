@@ -1,9 +1,7 @@
-Client
-======
+``cl_`` Client Engine
+=====================
 
-Entries with the ``cl_`` prefix.
-
-See :doc:`../cvars` for flags and :doc:`skill` for skill settings.
+See :doc:`../cvars` for flags.
 
 .. igw:cvar:: cl-allowdownload
    :name: cl_allowDownload

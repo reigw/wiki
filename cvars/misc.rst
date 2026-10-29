@@ -1,9 +1,9 @@
-Other console variables
-=======================
+Miscellaneous
+=============
 
 Entries without one of the prefixes used by the other reference pages.
 
-See :doc:`../cvars` for flags and :doc:`skill` for skill settings.
+See :doc:`../cvars` for flags.
 
 .. igw:cvar:: activeaction
    :name: activeAction

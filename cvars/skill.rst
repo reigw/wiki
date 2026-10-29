@@ -1,27 +1,19 @@
-Skill
-=====
+``sk_`` Skill
+=============
 
-Entries with the ``sk_`` prefix.
+A good chunk of **Game balance** is set via Skill CVARs that are shipped as
+plain console command scripts (configurations). During map initialization, the
+client and server execute the selected difficulty configuration with ``exec``,
+for example ``exec skill-m.cfg`` for Medium. See :ref:`difficulty-file-naming`
+for the ``skill-*.cfg`` suffixes and their :igw:cvar:`sv-difficulty` selection
+values.
 
-See :doc:`../cvars` for flags.
+.. important::
 
-Skill configurations are console command scripts stored at the virtual game
-directory root. During map initialization, the client and server execute the
-selected difficulty configuration with ``exec``, for example
-``exec skill-m.cfg`` for Medium. See :ref:`difficulty-file-naming` for the
-``skill-*.cfg`` suffixes and their :igw:cvar:`sv-difficulty` selection values.
+   As Skill CVARs are **NOT** networked they **MUST** match on client and server.
 
-The requested filename is resolved through the :doc:`../virtual-filesystem`,
-including copies stored at the root of ``base/*.pk3`` archives. See that page
-for directory and PK3 search priority, whole-file replacement, pure-server
-restrictions, and commands to inspect which copy is selected. The game reads
-the selected file directly from its archive; extracting it is unnecessary.
-Copies of the same configuration in different PK3s are not executed in
-sequence or merged.
-
-The developers commonly ship game balance changes, including updated skill
-configurations, in patch archives such as ``zpatch114.pk3``. These filenames
-sort ahead of ``resources.pk3`` under the
+The developers commonly shipped such game balance changes in patch archives such
+as ``zpatch114.pk3``. These filenames sort ahead of ``resources.pk3`` under the
 :ref:`PK3 search order <vfs-pk3-order>`, so the updated skill configurations
 take precedence within the same directory.
 
@@ -32,22 +24,10 @@ reference; it is not an additional selectable difficulty.
 before a difficulty configuration, and the behavior when a requested skill
 configuration is missing.
 
-Skill settings
---------------
-
-Skill values are grouped into a base setting and :igw:difficulty:`easy`,
-:igw:difficulty:`medium`, :igw:difficulty:`hard`, :igw:difficulty:`brute`,
-and :igw:difficulty:`god` difficulty settings. Each value represents a
-configuration setting; engine defaults and allowed values remain to be
-documented where marked with ``@TODO``. A missing difficulty setting leaves
-the value unspecified.
-
-.. important::
-
-   Skill settings are not networked and must match on client and server.
-
 Reference
 ---------
+
+See :doc:`../cvars` for flags.
 
 .. igw:cvar:: sk-amorale-max
    :name: sk_Amorale_max

@@ -33,10 +33,6 @@ until their interpretation is verified. Configuration values do not establish
 allowed ranges or final runtime values. ``Unspecified`` means that a profile
 has no assignment; effective values and fallback behavior remain unresolved.
 
-.. important::
-
-   Skill settings are not networked and must match on client and server.
-
 @TODO: Verify time and distance units, attack-rate interpretation, damage
 application, and the game versions to which these settings apply.
 
