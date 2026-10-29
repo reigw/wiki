@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from decimal import Decimal, InvalidOperation
 from itertools import groupby
 
 from docutils import nodes
@@ -40,11 +41,14 @@ class ViewDirective(SphinxDirective):
 
     optional_arguments = 1
     # Parsers defer domain imports to avoid a cycle during domain registration.
-    option_spec = {"type": parse_type, "faction": parse_id, "columns": parse_columns}
+    option_spec = {
+        "type": parse_type, "faction": parse_id, "columns": parse_columns,
+        "sort-by": parse_id,
+    }
 
     def run(self):
         view = self.name.partition(":")[2]
-        allowed = {"type", "faction", "columns"} if view == "statistics" else (
+        allowed = {"type", "faction", "columns", "sort-by"} if view == "statistics" else (
             {"type", "faction"} if view == "entity-list" else set()
         )
         if unsupported := self.options.keys() - allowed:
@@ -80,6 +84,22 @@ def field(label, content):
 
 def display_label(identifier):
     return identifier.replace("-", " ").capitalize()
+
+
+def statistic_sort_key(entity, column):
+    """Sort numeric values numerically, then text, with missing values last."""
+    value = entity.stats.get(column)
+    if value is None:
+        return (2, "")
+    try:
+        number = Decimal(value)
+    except InvalidOperation:
+        pass
+    else:
+        # Nonfinite values cannot provide a consistent numeric ordering.
+        if number.is_finite():
+            return (0, number)
+    return (1, value.casefold())
 
 
 def infobox_statistics(entity):
@@ -171,6 +191,9 @@ class RenderViews(SphinxPostTransform):
         entities = self.selected(domain, node)
         if not entities:
             return nodes.paragraph("", "No matching entities.")
+        if "sort-by" in node:
+            # Stable sorting retains the default name/ID ordering for ties.
+            entities.sort(key=lambda entity: statistic_sort_key(entity, node["sort-by"]))
         columns = node.get("columns", sorted({key for entity in entities for key in entity.stats}))
         table = nodes.table(classes=["igw-statistics"])
         group = nodes.tgroup(cols=len(columns) + 1)

@@ -118,13 +118,19 @@ targets must be unique across types.
 
 ``igw:entity-list`` and ``igw:statistics`` accept optional ``:type:`` and
 ``:faction:`` filters, combined when both are present. Without filters, they
-include every entity. Rows are ordered by display name, then qualified ID.
+include every entity. By default, rows are ordered by display name, then
+qualified ID.
 ``:type: entity`` selects generic entities only.
 
 Statistics tables always include a linked name. ``:columns:`` selects and
 orders statistic IDs. Without it, the table includes all statistic IDs from
 matching entities, in alphabetical order. Missing values display as
 ``Unknown``; they are not interpreted as zero.
+
+``:sort-by:`` orders statistics rows by a statistic ID in ascending order.
+Finite numeric values sort numerically before text values, which sort
+without regard to case. Missing values come last. Ties retain the default
+name and ID ordering. The sort statistic need not be a displayed column.
 
 Backlinks list other documents containing semantic references or definition
 relationships to the target. Infoboxes and generated lists or tables do not

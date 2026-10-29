@@ -45,6 +45,7 @@ the value of ``sv_difficulty``.
 .. igw:statistics::
    :type: difficulty
    :columns: selection-value, filename-suffix
+   :sort-by: selection-value
 
 Unsuffixed wave files, ``<map>.xml``, contain their own values and are
 separate definitions. An unsuffixed filename does not establish a difficulty
