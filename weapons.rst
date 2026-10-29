@@ -11,7 +11,7 @@ priority used to select the highest-weight held weapon at spawn, not a
 physical mass. ``deathmatch-points`` is the reward for killing another player
 with that weapon in Deathmatch.
 
-The difficulty tables reuse the configured values from :doc:`cvars/skill`.
+The difficulty tables reuse the configured ``sk_`` values from :doc:`Skill <cvars/skill>`.
 The selected ``skill-*.cfg`` supplies the difficulty settings. The Base column
 records separate ``skill.cfg`` assignments, not an additional difficulty or
 a confirmed runtime fallback. Configured values do not establish allowed
