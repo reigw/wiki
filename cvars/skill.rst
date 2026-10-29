@@ -5,6 +5,33 @@ Entries with the ``sk_`` prefix.
 
 See :doc:`../cvars` for flags.
 
+Skill configurations are console command scripts stored at the virtual game
+directory root. During map initialization, the client and server execute the
+selected difficulty configuration with ``exec``, for example
+``exec skill-m.cfg`` for Medium. See :ref:`difficulty-file-naming` for the
+``skill-*.cfg`` suffixes and their :igw:cvar:`sv-difficulty` selection values.
+
+The requested filename is resolved through the :doc:`../virtual-filesystem`,
+including copies stored at the root of ``base/*.pk3`` archives. See that page
+for directory and PK3 search priority, whole-file replacement, pure-server
+restrictions, and commands to inspect which copy is selected. The game reads
+the selected file directly from its archive; extracting it is unnecessary.
+Copies of the same configuration in different PK3s are not executed in
+sequence or merged.
+
+The developers commonly ship game balance changes, including updated skill
+configurations, in patch archives such as ``zpatch114.pk3``. These filenames
+sort ahead of ``resources.pk3`` under the
+:ref:`PK3 search order <vfs-pk3-order>`, so the updated skill configurations
+take precedence within the same directory.
+
+The unsuffixed ``skill.cfg`` supplies the base settings listed in this
+reference; it is not an additional selectable difficulty.
+
+@TODO: Verify the runtime role of ``skill.cfg``, whether it is ever executed
+before a difficulty configuration, and the behavior when a requested skill
+configuration is missing.
+
 Skill settings
 --------------
 

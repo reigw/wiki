@@ -39,6 +39,8 @@ For example, ``fs_homepath/base/resources.pk3`` beats
 ``fs_basepath/base/zpatch113.pk3`` when the roots differ, even though
 ``zpatch113.pk3`` has the later archive name.
 
+.. _vfs-pk3-order:
+
 PK3 order
 ---------
 
