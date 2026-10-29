@@ -25,6 +25,7 @@ Wiki for the game ``Iron Grip: Warlord`` (``IGW``) `Version 1.14` provided by it
 
    cvars
    file-formats
+   virtual-filesystem
 
 .. toctree::
    :maxdepth: 2
