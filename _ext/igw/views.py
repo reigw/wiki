@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from itertools import groupby
+
 from docutils import nodes
 from sphinx import addnodes
 from sphinx.transforms.post_transforms import SphinxPostTransform
@@ -80,6 +82,34 @@ def display_label(identifier):
     return identifier.replace("-", " ").capitalize()
 
 
+def infobox_statistics(entity):
+    """Format infobox statistics without changing their stored definitions."""
+    difficulties = ("easy", "medium", "hard", "brute", "god")
+    setting_keys = {f"{difficulty}-setting" for difficulty in difficulties}
+    settings_rendered = False
+    for key, value in entity.stats.items():
+        # The source uses this placeholder when a cvar has no recorded flags.
+        if entity.kind == "cvar" and key == "flags" and value == "None listed":
+            continue
+        if entity.kind != "cvar" or key not in setting_keys:
+            yield display_label(key), value
+            continue
+        if settings_rendered:
+            continue
+        settings_rendered = True
+        # Missing settings break ranges; compare the authored values literally.
+        for setting, group in groupby(
+            difficulties, key=lambda difficulty: entity.stats.get(f"{difficulty}-setting"),
+        ):
+            names = list(group)
+            if setting is None:
+                continue
+            label = names[0].capitalize()
+            if len(names) > 1:
+                label += f"-{names[-1].capitalize()}"
+            yield f"{label} setting", setting
+
+
 class RenderViews(SphinxPostTransform):
     """Expand queries after collection and before normal reference resolution."""
 
@@ -97,12 +127,13 @@ class RenderViews(SphinxPostTransform):
             return nodes.paragraph("", f"Unknown entity: {node['target']}")
         box = nodes.container("", classes=["igw-infobox"])
         fields = nodes.field_list()
-        fields += field("Name", entity_link(entity, node["docname"]))
+        if not node.get("hide_name", False):
+            fields += field("Name", entity_link(entity, node["docname"]))
         fields += field("Type", entity.kind)
         if entity.summary:
             fields += field("Summary", entity.summary)
-        for key, value in entity.stats.items():
-            fields += field(display_label(key), value)
+        for label, value in infobox_statistics(entity):
+            fields += field(label, value)
         for relation in ("faction", "upgrade", "related"):
             targets = [target for kind, target in entity.relations if kind == relation]
             if not targets:

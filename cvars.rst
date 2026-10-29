@@ -8,8 +8,8 @@ alphabetically.
 Flags
 -----
 
-Each entry lists its flags. ``None listed`` indicates that no flags are
-recorded for that variable.
+Entries list their flags when present. The Flags row is omitted when no
+flags are recorded for that variable.
 
 .. list-table:: Cvar flags
    :header-rows: 1
