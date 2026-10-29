@@ -1,12 +1,63 @@
+- [X] Document Virtual Filesystem
 - [ ] Document Game Modes
-- [ ] Document Morale 
-- [ ] Document Civilians 
-- [ ] Document Credits/Money 
+- [ ] Document Morale
+- [ ] Document Civilians
+- [ ] Document Credits/Money
 - [ ] Document Upgrades
 - [ ] Document Factions
 - [ ] Document Maps
+- [ ] Document Enemies
+- [ ] Document Means of Death (separate or in weapons? better in weapons??)
+- [ ] Document Ammo (separately or in weapons? better in weapons)
 
-- [ ] Coalesce equal consecutive difficulty settings for CVARs etc.
+- [X] Coalesce equal consecutive difficulty settings for CVARs etc.
 - [ ] Create a Sphinx Extension to generate a single .rst/.md (whatever-plaintext) output
+
+```
+  Infantry
+
+  ┌─────┬──────────────────────────┬──────────────────────────────────────────────────────┬───────────────┬───────┬───────────────────────────────────────────────────────┐
+  │  #  │          Class           │                        Weapon                        │    Health     │ Score │                         Notes                         │
+  ├─────┼──────────────────────────┼──────────────────────────────────────────────────────┼───────────────┼───────┼───────────────────────────────────────────────────────┤
+  │ 1   │ CONSCRIPT                │ Confederate LMG or musket                            │ 115           │ 3     │ The wave scripts name only conscripts and vehicles.   │
+  ├─────┼──────────────────────────┼──────────────────────────────────────────────────────┼───────────────┼───────┼───────────────────────────────────────────────────────┤
+  │ 1   │ Templar (a variant of    │ Templar MG                                           │ 180           │       │ Chosen by TEMPLAR_RATIO, so it is not a class of its  │
+  │     │ CONSCRIPT)               │                                                      │               │       │ own.                                                  │
+  ├─────┼──────────────────────────┼──────────────────────────────────────────────────────┼───────────────┼───────┼───────────────────────────────────────────────────────┤
+  │ 2   │ GRENADIER                │ Shield with pistol rounds and dynamite, or heavy     │ 145           │ 5     │ Splits into shield and rifle types.                   │
+  │     │                          │ rifle or MG with hand grenades                       │               │       │                                                       │
+  ├─────┼──────────────────────────┼──────────────────────────────────────────────────────┼───────────────┼───────┼───────────────────────────────────────────────────────┤
+  │ 3   │ HLEGIONNAIRE             │ Flamethrower                                         │ 180           │ 7     │ The cvars call it "legionnaire".                      │
+  ├─────┼──────────────────────────┼──────────────────────────────────────────────────────┼───────────────┼───────┼───────────────────────────────────────────────────────┤
+  │ 4   │ OFFICER                  │ Minigun and sword                                    │ 900           │ 300   │ Drops its minigun when killed. The spawner brings one │
+  │     │                          │                                                      │               │       │  when none is alive.                                  │
+  ├─────┼──────────────────────────┼──────────────────────────────────────────────────────┼───────────────┼───────┼───────────────────────────────────────────────────────┤
+  │ 9   │ SPY                      │ Knife                                                │ 200           │ 25    │ Spawns on sk_spy_spawn_delay.                         │
+  ├─────┼──────────────────────────┼──────────────────────────────────────────────────────┼───────────────┼───────┼───────────────────────────────────────────────────────┤
+  │ 10  │ ENGINEER                 │ Light pistol                                         │ 200           │ 100   │ Spawns on sk_engineer_spawn_delay.                    │
+  ├─────┼──────────────────────────┼──────────────────────────────────────────────────────┼───────────────┼───────┼───────────────────────────────────────────────────────┤
+  │ 11  │ BOMBER                   │ Light pistol and suicide device                      │ 250           │ 7     │ A suicide attacker.                                   │
+  ├─────┼──────────────────────────┼──────────────────────────────────────────────────────┼───────────────┼───────┼───────────────────────────────────────────────────────┤
+  │ 12  │ CIV                      │ Knife                                                │ sk_health_civ │       │ Only in deathmatch (gametype 0), where these are the  │
+  │     │                          │                                                      │               │       │ looters.                                              │
+  ├─────┼──────────────────────────┼──────────────────────────────────────────────────────┼───────────────┼───────┼───────────────────────────────────────────────────────┤
+  │ 13  │ HERRAD                   │ Bazooka                                              │ 180           │ 5     │                                                       │
+  └─────┴──────────────────────────┴──────────────────────────────────────────────────────┴───────────────┴───────┴───────────────────────────────────────────────────────┘
+
+  Vehicles
+
+  ┌─────┬─────────────┬────────┬───────┬───────┬─────────────────────────────────────┐
+  │  #  │    Class    │ Health │ Score │ Speed │                Notes                │
+  ├─────┼─────────────┼────────┼───────┼───────┼─────────────────────────────────────┤
+  │ 5   │ SCARAB      │ 1100   │ 100   │ 80    │ Small cannon.                       │
+  ├─────┼─────────────┼────────┼───────┼───────┼─────────────────────────────────────┤
+  │ 6   │ ONTOS       │ 1675   │ 150   │ 70    │ Cannon or rockets, plus MG turrets. │
+  ├─────┼─────────────┼────────┼───────┼───────┼─────────────────────────────────────┤
+  │ 7   │ WALKER      │ 4500   │ 200   │ 70    │ "Ball of doom", plus MG turrets.    │
+  ├─────┼─────────────┼────────┼───────┼───────┼─────────────────────────────────────┤
+  │ 8   │ BOSS_WALKER │ 5800   │ 300   │ 35    │ Cannon, plus MG turrets.            │
+  └─────┴─────────────┴────────┴───────┴───────┴─────────────────────────────────────┘
+```
+
 
 # vim: set expandtab tabstop=2 shiftwidth=2 softtabstop=2 nowrap textwidth=0:
