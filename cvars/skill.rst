@@ -2283,6 +2283,7 @@ See :doc:`../cvars` for flags.
 
 .. igw:cvar:: sk-food-hot-hp
    :name: sk_food_hot_hp
+   :summary: Health restored by a food pickup with the burning flag.
    :stats:
       flags: None listed
       base-skill-setting: 100
@@ -2292,11 +2293,14 @@ See :doc:`../cvars` for flags.
       brute-setting: 100
       god-setting: 100
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
+   Used instead of :igw:cvar:`sk-food-hp` when the food is burning. Healing
+   is capped at the player's maximum health. See :doc:`/powerups`.
+
+   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-food-hp
    :name: sk_food_hp
+   :summary: Health restored by an ordinary food pickup.
    :stats:
       flags: None listed
       base-skill-setting: 50
@@ -2306,8 +2310,11 @@ See :doc:`../cvars` for flags.
       brute-setting: 50
       god-setting: 50
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
+   Applies to food without the burning flag. Food can be collected only
+   below maximum health, and healing is capped at that maximum. See
+   :doc:`/powerups` for cooking and respawning.
+
+   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-food-respawn
    :name: sk_food_respawn
@@ -2321,8 +2328,11 @@ See :doc:`../cvars` for flags.
       brute-setting: 30
       god-setting: 30
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
+   Shared by ordinary and hot food. Respawned food is uncooked and moves
+   to a randomly selected free food spawn location. An item's ``wait``
+   and ``random`` properties can change the delay. See :doc:`/powerups`.
+
+   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-health-atturret1
    :name: sk_health_atturret1
@@ -2784,6 +2794,7 @@ See :doc:`../cvars` for flags.
 
 .. igw:cvar:: sk-jewel-power
    :name: sk_jewel_power
+   :summary: Power granted by a jewel pickup in cooperative play.
    :stats:
       flags: None listed
       base-skill-setting: 200
@@ -2793,8 +2804,12 @@ See :doc:`../cvars` for flags.
       brute-setting: 250
       god-setting: 250
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
+   The Power balance is capped at 9,999. Deathmatch uses the jewel item's
+   quantity for the Power reward instead. This setting is also passed to
+   the loot-score calculation. See :doc:`/powerups`.
+
+   @TODO: Verify the engine default, complete valid values, and loot-score
+   accounting.
 
 .. igw:cvar:: sk-jewel-respawn
    :name: sk_jewel_respawn
@@ -2808,8 +2823,11 @@ See :doc:`../cvars` for flags.
       brute-setting: 80
       god-setting: 80
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
+   A respawned jewel moves to a randomly selected free jewel spawn
+   location. An item's ``wait`` and ``random`` properties can change the
+   delay. Dropped jewels do not respawn. See :doc:`/powerups`.
+
+   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-level-four
    :name: sk_level_four
@@ -3119,6 +3137,7 @@ See :doc:`../cvars` for flags.
 
 .. igw:cvar:: sk-max-food
    :name: sk_max_food
+   :summary: Cap on the number of food pickups placed at round start.
    :stats:
       flags: None listed
       base-skill-setting: 8
@@ -3128,11 +3147,16 @@ See :doc:`../cvars` for flags.
       brute-setting: 6
       god-setting: 6
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
+   Placement uses the smaller of this value and the number of food spawn
+   locations. Wave-script ``SKILLSETTINGS`` can override it through a
+   ``sk_max_food`` element. Cooking a pickup does not add another food item.
+   See :doc:`/powerups`.
+
+   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-max-jewel
    :name: sk_max_jewel
+   :summary: Cap on the number of jewel pickups placed at round start.
    :stats:
       flags: None listed
       base-skill-setting: 5
@@ -3142,8 +3166,11 @@ See :doc:`../cvars` for flags.
       brute-setting: 3
       god-setting: 3
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
+   Placement uses the smaller of this value and the number of jewel spawn
+   locations. Wave-script ``SKILLSETTINGS`` can override it through a
+   ``sk_max_jewel`` element. See :doc:`/powerups` and :doc:`/scripts/waves`.
+
+   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-max-radio
    :name: sk_max_radio
