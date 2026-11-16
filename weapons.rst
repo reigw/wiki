@@ -103,7 +103,8 @@ Firepower upgrades
 
 The highest Firepower upgrade owned sets the damage multiplier and reduces
 reload time. Damage scaling is applied by the damage routine. The linked
-settings provide the configured prices and multipliers:
+settings provide the configured prices and multipliers. See :doc:`upgrades`
+for prerequisites, purchase rules, and difficulty comparisons.
 
 .. list-table:: Firepower settings
    :header-rows: 1
@@ -112,19 +113,19 @@ settings provide the configured prices and multipliers:
      - Price
      - Damage multiplier
      - Reload-time multiplier
-   * - 1
+   * - :igw:upgrade:`firepower1`
      - :igw:cvar:`sk-upgrade-fire1`
      - :igw:cvar:`sk-upgrade-weap1`
      - :igw:cvar:`sk-upgrade-reload-weap1`
-   * - 2
+   * - :igw:upgrade:`firepower2`
      - :igw:cvar:`sk-upgrade-fire2`
      - :igw:cvar:`sk-upgrade-weap2`
      - :igw:cvar:`sk-upgrade-reload-weap2`
-   * - 3
+   * - :igw:upgrade:`firepower3`
      - :igw:cvar:`sk-upgrade-fire3`
      - :igw:cvar:`sk-upgrade-weap3`
      - :igw:cvar:`sk-upgrade-reload-weap3`
-   * - 4
+   * - :igw:upgrade:`firepower4`
      - :igw:cvar:`sk-upgrade-fire4`
      - :igw:cvar:`sk-upgrade-weap4`
      - :igw:cvar:`sk-upgrade-reload-weap4`
@@ -686,6 +687,7 @@ Shared defaults and special movement flags are described under
 
 .. igw:weapon:: medkit
    :name: Med Kit
+   :upgrades: medkit
    :skill-cvars:
       sk-dmg-primary-medkit
       sk-dmg-splash-medkit
@@ -703,10 +705,10 @@ Shared defaults and special movement flags are described under
       wind-up-time: 2286 ms
       refire-time: 150 ms
 
-   The Med Kit upgrade grants access to this item through the weapons section
-   in FPS mode. It is used for healing yourself or allies. The primary action
-   uses a trace to apply healing, with a 2286 ms wind-up and 150 ms refire
-   delay. :igw:cvar:`sk-dmg-primary-medkit` configures the healing amount;
+   The :igw:upgrade:`medkit` upgrade grants access to this item through the
+   weapons section in FPS mode. It is used for healing yourself or allies.
+   The primary action uses a trace to apply healing, with a 2286 ms wind-up
+   and 150 ms refire delay. :igw:cvar:`sk-dmg-primary-medkit` configures the healing amount;
    :igw:cvar:`sk-dmg-splash-medkit` configures the healing range.
 
    @TODO: Document self-healing versus ally-targeting behavior, eligibility

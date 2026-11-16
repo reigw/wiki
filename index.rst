@@ -18,6 +18,7 @@ Wiki for the game ``Iron Grip: Warlord`` (``IGW``) `Version 1.14` provided by it
    difficulties
    enemies
    powerups
+   upgrades
    weapons
 
 .. toctree::

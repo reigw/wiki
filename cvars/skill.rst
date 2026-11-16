@@ -4590,6 +4590,7 @@ See :doc:`../cvars` for flags.
 
 .. igw:cvar:: sk-upgrade-health1
    :name: sk_upgrade_health1
+   :summary: Purchase price in Power for Health Upgrade 1.
    :stats:
       flags: None listed
       base-skill-setting: 150
@@ -4599,11 +4600,15 @@ See :doc:`../cvars` for flags.
       brute-setting: 150
       god-setting: 150
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
+   Charged when buying :igw:upgrade:`health1` and used to calculate its
+   sale refund. :igw:cvar:`sk-upgrade-newhealth1` sets the resulting maximum
+   health.
+
+   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-upgrade-health2
    :name: sk_upgrade_health2
+   :summary: Purchase price in Power for Health Upgrade 2.
    :stats:
       flags: None listed
       base-skill-setting: 200
@@ -4613,11 +4618,15 @@ See :doc:`../cvars` for flags.
       brute-setting: 250
       god-setting: 250
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
+   Charged when buying :igw:upgrade:`health2` and used to calculate its
+   sale refund. :igw:cvar:`sk-upgrade-newhealth2` sets the resulting maximum
+   health.
+
+   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-upgrade-health3
    :name: sk_upgrade_health3
+   :summary: Purchase price in Power for Health Upgrade 3.
    :stats:
       flags: None listed
       base-skill-setting: 250
@@ -4627,11 +4636,15 @@ See :doc:`../cvars` for flags.
       brute-setting: 350
       god-setting: 350
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
+   Charged when buying :igw:upgrade:`health3` and used to calculate its
+   sale refund. :igw:cvar:`sk-upgrade-newhealth3` sets the resulting maximum
+   health.
+
+   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-upgrade-health4
    :name: sk_upgrade_health4
+   :summary: Purchase price in Power for Health Upgrade 4.
    :stats:
       flags: None listed
       base-skill-setting: 350
@@ -4641,8 +4654,11 @@ See :doc:`../cvars` for flags.
       brute-setting: 500
       god-setting: 500
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
+   Charged when buying :igw:upgrade:`health4` and used to calculate its
+   sale refund. :igw:cvar:`sk-upgrade-newhealth4` sets the resulting maximum
+   health.
+
+   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-upgrade-hmg
    :name: sk_upgrade_hmg
@@ -4674,6 +4690,7 @@ See :doc:`../cvars` for flags.
 
 .. igw:cvar:: sk-upgrade-newhealth1
    :name: sk_upgrade_newhealth1
+   :summary: Maximum health in health points with Health Upgrade 1.
    :stats:
       flags: None listed
       base-skill-setting: 125
@@ -4683,11 +4700,15 @@ See :doc:`../cvars` for flags.
       brute-setting: 225
       god-setting: 225
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
+   Sets maximum health when :igw:upgrade:`health1` is the highest owned
+   Health level. This is an absolute maximum, not additional health.
+   :igw:cvar:`sk-upgrade-health1` sets the purchase price.
+
+   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-upgrade-newhealth2
    :name: sk_upgrade_newhealth2
+   :summary: Maximum health in health points with Health Upgrade 2.
    :stats:
       flags: None listed
       base-skill-setting: 150
@@ -4697,11 +4718,15 @@ See :doc:`../cvars` for flags.
       brute-setting: 250
       god-setting: 250
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
+   Sets maximum health when :igw:upgrade:`health2` is the highest owned
+   Health level. This is an absolute maximum, not additional health.
+   :igw:cvar:`sk-upgrade-health2` sets the purchase price.
+
+   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-upgrade-newhealth3
    :name: sk_upgrade_newhealth3
+   :summary: Maximum health in health points with Health Upgrade 3.
    :stats:
       flags: None listed
       base-skill-setting: 175
@@ -4711,11 +4736,15 @@ See :doc:`../cvars` for flags.
       brute-setting: 275
       god-setting: 275
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
+   Sets maximum health when :igw:upgrade:`health3` is the highest owned
+   Health level. This is an absolute maximum, not additional health.
+   :igw:cvar:`sk-upgrade-health3` sets the purchase price.
+
+   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-upgrade-newhealth4
    :name: sk_upgrade_newhealth4
+   :summary: Maximum health in health points with Health Upgrade 4.
    :stats:
       flags: None listed
       base-skill-setting: 200
@@ -4725,8 +4754,11 @@ See :doc:`../cvars` for flags.
       brute-setting: 300
       god-setting: 300
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
+   Sets maximum health when :igw:upgrade:`health4` is the highest owned
+   Health level. This is an absolute maximum, not additional health.
+   :igw:cvar:`sk-upgrade-health4` sets the purchase price.
+
+   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-upgrade-reload-weap1
    :name: sk_upgrade_reload_weap1
