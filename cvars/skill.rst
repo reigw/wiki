@@ -40,9 +40,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 200
       god-setting: 200
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-amorale-start
    :name: sk_Amorale_start
    :stats:
@@ -54,9 +51,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 200
       god-setting: 200
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-artillerypause
    :name: sk_artillerypause
    :stats:
@@ -66,9 +60,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 60000
       brute-setting: 60000
       god-setting: 60000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-attackrate-atturret1
    :name: sk_attackrate_atturret1
@@ -81,9 +72,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 5000
       god-setting: 5000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-attackrate-atturret2
    :name: sk_attackrate_atturret2
    :stats:
@@ -94,9 +82,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 4000
       brute-setting: 4000
       god-setting: 4000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-attackrate-atturret3
    :name: sk_attackrate_atturret3
@@ -109,9 +94,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 3000
       god-setting: 3000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-attackrate-mgturret1
    :name: sk_attackrate_mgturret1
    :stats:
@@ -122,9 +104,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 75
       brute-setting: 75
       god-setting: 75
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-attackrate-mgturret2
    :name: sk_attackrate_mgturret2
@@ -137,9 +116,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 60
       god-setting: 60
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-attackrate-mgturret3
    :name: sk_attackrate_mgturret3
    :stats:
@@ -150,9 +126,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 50
       brute-setting: 50
       god-setting: 50
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-attackrate-mgturret4
    :name: sk_attackrate_mgturret4
@@ -165,9 +138,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 40
       god-setting: 40
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-ball-firerate
    :name: sk_ball_firerate
    :stats:
@@ -178,9 +148,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 5000
       brute-setting: 4000
       god-setting: 3000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-blowup-bosswalker-dmg
    :name: sk_blowup_bosswalker_dmg
@@ -193,9 +160,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 400
       god-setting: 400
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-blowup-bosswalker-radius
    :name: sk_blowup_bosswalker_radius
    :stats:
@@ -206,9 +170,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 300
       brute-setting: 300
       god-setting: 300
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-blowup-ontos-dmg
    :name: sk_blowup_ontos_dmg
@@ -221,9 +182,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 200
       god-setting: 200
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-blowup-ontos-radius
    :name: sk_blowup_ontos_radius
    :stats:
@@ -234,9 +192,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 100
       brute-setting: 100
       god-setting: 100
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-blowup-scarab-dmg
    :name: sk_blowup_scarab_dmg
@@ -249,9 +204,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 100
       god-setting: 100
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-blowup-scarab-radius
    :name: sk_blowup_scarab_radius
    :stats:
@@ -262,9 +214,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 80
       brute-setting: 80
       god-setting: 80
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-blowup-walker-dmg
    :name: sk_blowup_walker_dmg
@@ -277,9 +226,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 250
       god-setting: 250
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-blowup-walker-radius
    :name: sk_blowup_walker_radius
    :stats:
@@ -291,16 +237,10 @@ See :doc:`../cvars` for flags.
       brute-setting: 175
       god-setting: 175
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-bomber-firstspawntime
    :name: sk_bomber_firstspawntime
    :stats:
       flags: None listed
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-bosswalker-angle-change
    :name: sk_bosswalker_angle_change
@@ -313,9 +253,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 175
       god-setting: 175
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-bot-moralecost
    :name: sk_bot_moralecost
    :stats:
@@ -326,9 +263,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 3
       brute-setting: 3
       god-setting: 3
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-brute-rate
    :name: sk_brute_rate
@@ -341,9 +275,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 700
       god-setting: 700
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-buildtime-atturret
    :name: sk_buildtime_atturret
    :stats:
@@ -354,9 +285,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 16500
       brute-setting: 18500
       god-setting: 18500
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-buildtime-fuelbomb
    :name: sk_buildtime_fuelbomb
@@ -369,9 +297,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 5000
       god-setting: 5000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-buildtime-mgturret
    :name: sk_buildtime_mgturret
    :stats:
@@ -382,9 +307,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 13000
       brute-setting: 15000
       god-setting: 15000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-buildtime-poison
    :name: sk_buildtime_poison
@@ -397,9 +319,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 5000
       god-setting: 5000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-buildtime-stronghold
    :name: sk_buildtime_stronghold
    :stats:
@@ -410,9 +329,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 20000
       brute-setting: 20000
       god-setting: 20000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-buildtime-supportstation
    :name: sk_buildtime_supportstation
@@ -425,9 +341,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 6000
       god-setting: 6000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-buildtime-tripmine
    :name: sk_buildtime_tripmine
    :stats:
@@ -438,9 +351,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 3000
       brute-setting: 3000
       god-setting: 3000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-civ-health
    :name: sk_civ_health
@@ -453,9 +363,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 5
       god-setting: 5
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-civ-powerbonus
    :name: sk_civ_powerbonus
    :stats:
@@ -466,9 +373,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 250
       brute-setting: 200
       god-setting: 150
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-civ-powerpenalty
    :name: sk_civ_powerpenalty
@@ -481,9 +385,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 350
       god-setting: 350
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-civ-respawn
    :name: sk_civ_respawn
    :stats:
@@ -494,9 +395,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 10000
       brute-setting: 10000
       god-setting: 10000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-cmorale-max
    :name: sk_Cmorale_max
@@ -509,9 +407,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 200
       god-setting: 200
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-cmorale-start
    :name: sk_Cmorale_start
    :stats:
@@ -522,9 +417,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 200
       brute-setting: 200
       god-setting: 200
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-cost-atturret
    :name: sk_cost_atturret
@@ -537,9 +429,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 450
       god-setting: 450
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-cost-atupgr2
    :name: sk_cost_atupgr2
    :stats:
@@ -550,9 +439,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 250
       brute-setting: 250
       god-setting: 250
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-cost-atupgr3
    :name: sk_cost_atupgr3
@@ -565,9 +451,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 300
       god-setting: 300
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-cost-fuelbomb
    :name: sk_cost_fuelbomb
    :stats:
@@ -579,24 +462,15 @@ See :doc:`../cvars` for flags.
       brute-setting: 75
       god-setting: 75
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-cost-fuelupgr2
    :name: sk_cost_fuelupgr2
    :stats:
       flags: None listed
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-cost-fuelupgr3
    :name: sk_cost_fuelupgr3
    :stats:
       flags: None listed
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-cost-mgturret
    :name: sk_cost_mgturret
@@ -609,9 +483,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 250
       god-setting: 250
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-cost-mgupgr2
    :name: sk_cost_mgupgr2
    :stats:
@@ -622,9 +493,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 150
       brute-setting: 150
       god-setting: 150
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-cost-mgupgr3
    :name: sk_cost_mgupgr3
@@ -637,9 +505,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 250
       god-setting: 250
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-cost-mgupgr4
    :name: sk_cost_mgupgr4
    :stats:
@@ -650,9 +515,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 350
       brute-setting: 350
       god-setting: 350
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-cost-poison
    :name: sk_cost_poison
@@ -665,9 +527,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 100
       god-setting: 100
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-cost-stronghold
    :name: sk_cost_stronghold
    :stats:
@@ -678,9 +537,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 150
       brute-setting: 150
       god-setting: 150
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-cost-supportstation
    :name: sk_cost_supportstation
@@ -693,9 +549,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 150
       god-setting: 150
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-cost-tripmine
    :name: sk_cost_tripmine
    :stats:
@@ -706,9 +559,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 85
       brute-setting: 85
       god-setting: 85
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-deadofficer-morale
    :name: sk_deadofficer_morale
@@ -721,9 +571,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 7
       god-setting: 7
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-deadstronghold-morale
    :name: sk_deadstronghold_morale
    :stats:
@@ -734,9 +581,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 5
       brute-setting: 5
       god-setting: 5
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-deathhand-cooldown
    :name: sk_deathhand_cooldown
@@ -749,9 +593,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 90000
       god-setting: 90000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-deathhand-countdown
    :name: sk_deathhand_countdown
    :summary: Time between the start of the Deathhand countdown and missile launch, in milliseconds.
@@ -762,9 +603,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 90000
       brute-setting: 90000
       god-setting: 90000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-deathhand-damage
    :name: sk_deathhand_damage
@@ -777,9 +615,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 1200
       god-setting: 1400
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-deathhand-health
    :name: sk_deathhand_health
    :stats:
@@ -790,24 +625,15 @@ See :doc:`../cvars` for flags.
       brute-setting: 3600
       god-setting: 3800
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-deathhand-power
    :name: sk_deathhand_power
    :stats:
       flags: None listed
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-deathhand-score
    :name: sk_deathhand_score
    :stats:
       flags: None listed
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-deathhand-splashdamage
    :name: sk_deathhand_splashdamage
@@ -820,9 +646,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 500
       god-setting: 500
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-deathhand-splashradius
    :name: sk_deathhand_splashradius
    :summary: Radius around the Deathhand missile impact point in which splash damage is dealt.
@@ -834,9 +657,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 300
       god-setting: 300
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmg-airstrike
    :name: sk_dmg_airstrike
    :stats:
@@ -846,9 +666,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 700
       brute-setting: 900
       god-setting: 900
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-atturret1
    :name: sk_dmg_atturret1
@@ -861,9 +678,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 700
       god-setting: 700
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmg-atturret2
    :name: sk_dmg_atturret2
    :stats:
@@ -874,9 +688,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 1300
       brute-setting: 1100
       god-setting: 1100
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-atturret3
    :name: sk_dmg_atturret3
@@ -889,9 +700,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 1400
       god-setting: 1400
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmg-ball-crush
    :name: sk_dmg_ball_crush
    :stats:
@@ -902,9 +710,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 900
       brute-setting: 1300
       god-setting: 1700
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-ballodoom
    :name: sk_dmg_ballodoom
@@ -917,9 +722,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 200
       god-setting: 300
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmg-boss-walker-primary
    :name: sk_dmg_boss_walker_primary
    :stats:
@@ -930,9 +732,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 450
       brute-setting: 650
       god-setting: 950
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-boss-walker-splash
    :name: sk_dmg_boss_walker_splash
@@ -945,9 +744,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 100
       god-setting: 100
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmg-bossmortar
    :name: sk_dmg_bossmortar
    :stats:
@@ -958,9 +754,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 250
       brute-setting: 450
       god-setting: 650
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-bosswalkerbackturret
    :name: sk_dmg_bosswalkerbackturret
@@ -973,9 +766,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 35
       god-setting: 40
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmg-fuelbomb1
    :name: sk_dmg_fuelbomb1
    :stats:
@@ -986,9 +776,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 1000
       brute-setting: 1000
       god-setting: 1000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-fuelbombgas
    :name: sk_dmg_fuelbombgas
@@ -1001,9 +788,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 2000
       god-setting: 2000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmg-hellfire
    :name: sk_dmg_hellfire
    :stats:
@@ -1014,9 +798,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 850
       brute-setting: 850
       god-setting: 1250
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-mgturret1
    :name: sk_dmg_mgturret1
@@ -1029,9 +810,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 7
       god-setting: 7
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmg-mgturret2
    :name: sk_dmg_mgturret2
    :stats:
@@ -1042,9 +820,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 11
       brute-setting: 10
       god-setting: 10
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-mgturret3
    :name: sk_dmg_mgturret3
@@ -1057,9 +832,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 15
       god-setting: 15
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmg-mgturret4
    :name: sk_dmg_mgturret4
    :stats:
@@ -1070,9 +842,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 27
       brute-setting: 25
       god-setting: 25
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-npc-cbazooka
    :name: sk_dmg_npc_cbazooka
@@ -1086,9 +855,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 110
       god-setting: 150
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-npc-conflmg
    :name: sk_dmg_npc_conflmg
    :summary: NPC weapon damage for the Confederate light machine gun.
@@ -1101,9 +867,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 10
       god-setting: 15
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-npc-dynamite
    :name: sk_dmg_npc_dynamite
    :summary: NPC weapon damage for the cluster dynamite.
@@ -1114,9 +877,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 400
       brute-setting: 500
       god-setting: 750
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-npc-flamer
    :name: sk_dmg_npc_flamer
@@ -1130,9 +890,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 13
       god-setting: 16
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-npc-heavyrifle
    :name: sk_dmg_npc_heavyrifle
    :summary: NPC weapon damage for the shotgun.
@@ -1144,9 +901,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 5
       brute-setting: 7
       god-setting: 9
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-npc-hgrenade
    :name: sk_dmg_npc_hgrenade
@@ -1160,9 +914,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 100
       god-setting: 130
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-npc-lrifle
    :name: sk_dmg_npc_lrifle
    :summary: NPC weapon damage for the light rifle.
@@ -1174,9 +925,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 10
       brute-setting: 13
       god-setting: 16
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-npc-mg
    :name: sk_dmg_npc_mg
@@ -1190,9 +938,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 13
       god-setting: 15
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-npc-minigun
    :name: sk_dmg_npc_minigun
    :summary: NPC weapon damage for the minigun.
@@ -1204,9 +949,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 12
       brute-setting: 17
       god-setting: 20
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-npc-molotov
    :name: sk_dmg_npc_molotov
@@ -1220,9 +962,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 90
       god-setting: 90
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-npc-pistol
    :name: sk_dmg_npc_pistol
    :summary: NPC weapon damage for the pistol.
@@ -1235,9 +974,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 10
       god-setting: 13
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-npc-suicide
    :name: sk_dmg_npc_suicide
    :summary: NPC weapon damage for the suicide blast.
@@ -1248,9 +984,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 280
       brute-setting: 1450
       god-setting: 750
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-npc-sword
    :name: sk_dmg_npc_sword
@@ -1264,9 +997,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 8000
       god-setting: 8000
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-npc-templarmgnade
    :name: sk_dmg_npc_templarmgnade
    :summary: Splash damage of the NPC Templar grenade.
@@ -1277,9 +1007,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 120
       brute-setting: 165
       god-setting: 175
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-ontos-primary
    :name: sk_dmg_ontos_primary
@@ -1292,9 +1019,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 2000
       god-setting: 2000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmg-ontos-primarysplash
    :name: sk_dmg_ontos_primarysplash
    :stats:
@@ -1306,9 +1030,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 150
       god-setting: 150
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmg-poison1
    :name: sk_dmg_poison1
    :stats:
@@ -1319,9 +1040,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 30
       brute-setting: 30
       god-setting: 30
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-poison-time
    :name: sk_dmg_poison_time
@@ -1335,9 +1053,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 4000
       god-setting: 4000
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-primary-40rge
    :name: sk_dmg_primary_40rge
    :summary: Primary attack damage for the 40 RGE anti-tank shell.
@@ -1350,9 +1065,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 800
       god-setting: 800
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-primary-airstrike
    :name: sk_dmg_primary_airstrike
    :summary: Primary attack damage for the end-of-level airstrike.
@@ -1364,9 +1076,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 150
       brute-setting: 150
       god-setting: 150
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-primary-dynamite
    :name: sk_dmg_primary_dynamite
@@ -1382,9 +1091,6 @@ See :doc:`../cvars` for flags.
 
    Cluster dynamite produces one initial explosion and four additional explosions.
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-primary-flamer
    :name: sk_dmg_primary_flamer
    :summary: Primary attack damage for the flamethrower.
@@ -1396,9 +1102,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 30
       brute-setting: 30
       god-setting: 30
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-primary-heavyrifle
    :name: sk_dmg_primary_heavyrifle
@@ -1412,9 +1115,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 25
       god-setting: 25
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-primary-hgrenade
    :name: sk_dmg_primary_hgrenade
    :summary: Primary attack damage for the hand grenade.
@@ -1426,9 +1126,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 150
       brute-setting: 150
       god-setting: 150
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-primary-hmg
    :name: sk_dmg_primary_hmg
@@ -1442,9 +1139,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 45
       god-setting: 45
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-primary-knife
    :name: sk_dmg_primary_knife
    :summary: Damage dealt by a knife swing.
@@ -1456,9 +1150,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 150
       brute-setting: 150
       god-setting: 150
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-primary-landmine
    :name: sk_dmg_primary_landmine
@@ -1472,9 +1163,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 350
       god-setting: 350
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-primary-lmg2
    :name: sk_dmg_primary_lmg2
    :summary: Primary attack damage for the light machine gun.
@@ -1486,9 +1174,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 25
       brute-setting: 25
       god-setting: 25
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-primary-lrifle
    :name: sk_dmg_primary_lrifle
@@ -1502,9 +1187,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 175
       god-setting: 175
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-primary-medkit
    :name: sk_dmg_primary_medkit
    :summary: Healing amount for the medkit, despite the damage prefix.
@@ -1516,9 +1198,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 2
       brute-setting: 2
       god-setting: 2
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-primary-mg
    :name: sk_dmg_primary_mg
@@ -1532,9 +1211,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 35
       god-setting: 35
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-primary-minigun
    :name: sk_dmg_primary_minigun
    :summary: Minigun damage when used by the player.
@@ -1546,9 +1222,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 25
       brute-setting: 25
       god-setting: 25
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-primary-molotov
    :name: sk_dmg_primary_molotov
@@ -1562,9 +1235,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 150
       god-setting: 150
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-primary-pistol
    :name: sk_dmg_primary_pistol
    :summary: Primary attack damage for the pistol.
@@ -1577,9 +1247,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 25
       god-setting: 25
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-primary-rocketlauncher
    :name: sk_dmg_primary_rocketlauncher
    :stats:
@@ -1589,9 +1256,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 1200
       brute-setting: 1200
       god-setting: 1200
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-primary-satchel
    :name: sk_dmg_primary_satchel
@@ -1605,9 +1269,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 1250
       god-setting: 1250
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-primary-sniper
    :name: sk_dmg_primary_sniper
    :summary: Primary attack damage for the sniper rifle.
@@ -1619,9 +1280,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 175
       brute-setting: 175
       god-setting: 175
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-primary-suicide
    :name: sk_dmg_primary_suicide
@@ -1635,16 +1293,10 @@ See :doc:`../cvars` for flags.
       brute-setting: 2000
       god-setting: 2000
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-primary-sword
    :name: sk_dmg_primary_sword
    :stats:
       flags: None listed
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-primary-templarmg
    :name: sk_dmg_primary_templarmg
@@ -1656,9 +1308,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 15
       brute-setting: 17
       god-setting: 17
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-primary-toolkit
    :name: sk_dmg_primary_toolkit
@@ -1672,9 +1321,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 13
       god-setting: 13
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-scarab
    :name: sk_dmg_scarab
    :stats:
@@ -1685,9 +1331,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 60
       brute-setting: 60
       god-setting: 100
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-secondary-flamer
    :name: sk_dmg_secondary_flamer
@@ -1701,9 +1344,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 35
       god-setting: 35
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-secondary-heavyrifle
    :name: sk_dmg_secondary_heavyrifle
    :summary: Damage dealt by the shotgun secondary cannon attack.
@@ -1715,9 +1355,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 55
       brute-setting: 55
       god-setting: 55
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-secondary-knife
    :name: sk_dmg_secondary_knife
@@ -1731,9 +1368,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 200
       god-setting: 200
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-secondary-lmg2
    :name: sk_dmg_secondary_lmg2
    :summary: Light machine gun damage when using ironsights.
@@ -1745,9 +1379,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 30
       brute-setting: 30
       god-setting: 30
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-secondary-lrifle
    :name: sk_dmg_secondary_lrifle
@@ -1761,9 +1392,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 175
       god-setting: 175
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-secondary-mg
    :name: sk_dmg_secondary_mg
    :summary: Damage dealt by the machine gun grenade impact explosion.
@@ -1775,9 +1403,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 250
       brute-setting: 250
       god-setting: 250
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-secondary-sniper
    :name: sk_dmg_secondary_sniper
@@ -1791,9 +1416,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 210
       god-setting: 210
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-splash-40rge
    :name: sk_dmg_splash_40rge
    :summary: Splash radius setting for the 40 RGE anti-tank shell.
@@ -1806,9 +1428,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 60
       god-setting: 60
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-splash-airstrike
    :name: sk_dmg_splash_airstrike
    :stats:
@@ -1820,9 +1439,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 250
       god-setting: 250
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmg-splash-airstrike-radius
    :name: sk_dmg_splash_airstrike_radius
    :stats:
@@ -1832,9 +1448,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 150
       brute-setting: 150
       god-setting: 150
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-splash-ballodoom
    :name: sk_dmg_splash_ballodoom
@@ -1847,9 +1460,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 4000
       god-setting: 5000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmg-splash-ballodoom-radius
    :name: sk_dmg_splash_ballodoom_radius
    :stats:
@@ -1860,9 +1470,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 325
       brute-setting: 325
       god-setting: 325
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-splash-bossmortar
    :name: sk_dmg_splash_bossmortar
@@ -1875,9 +1482,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 175
       god-setting: 175
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmg-splash-bossmortar-radius
    :name: sk_dmg_splash_bossmortar_radius
    :stats:
@@ -1888,9 +1492,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 250
       brute-setting: 250
       god-setting: 250
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-splash-cbazooka
    :name: sk_dmg_splash_cbazooka
@@ -1903,9 +1504,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 90
       brute-setting: 90
       god-setting: 90
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-splash-dynamite
    :name: sk_dmg_splash_dynamite
@@ -1921,9 +1519,6 @@ See :doc:`../cvars` for flags.
 
    Cluster dynamite produces one initial blast and four additional blasts.
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-splash-flamethrower
    :name: sk_dmg_splash_flamethrower
    :summary: Splash radius setting for the flamethrower fuel explosion.
@@ -1936,9 +1531,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 100
       god-setting: 100
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-splash-hellfire
    :name: sk_dmg_splash_hellfire
    :stats:
@@ -1950,9 +1542,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 200
       god-setting: 200
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmg-splash-hellfire-radius
    :name: sk_dmg_splash_hellfire_radius
    :stats:
@@ -1963,9 +1552,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 150
       brute-setting: 150
       god-setting: 150
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-splash-hgrenade
    :name: sk_dmg_splash_hgrenade
@@ -1979,9 +1565,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 125
       god-setting: 125
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-splash-landmine
    :name: sk_dmg_splash_landmine
    :summary: Splash radius setting for the land mine.
@@ -1993,9 +1576,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 150
       brute-setting: 150
       god-setting: 150
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-splash-medkit
    :name: sk_dmg_splash_medkit
@@ -2009,9 +1589,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 32
       god-setting: 32
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-splash-mgnade
    :name: sk_dmg_splash_mgnade
    :summary: Splash radius setting for the machine gun grenade.
@@ -2023,9 +1600,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 90
       brute-setting: 90
       god-setting: 80
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-splash-molotov
    :name: sk_dmg_splash_molotov
@@ -2039,9 +1613,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 80
       god-setting: 80
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-splash-rocketlauncher
    :name: sk_dmg_splash_rocketlauncher
    :stats:
@@ -2051,9 +1622,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 250
       brute-setting: 250
       god-setting: 250
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-splash-satchel
    :name: sk_dmg_splash_satchel
@@ -2067,9 +1635,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 280
       god-setting: 280
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-splash-suicide
    :name: sk_dmg_splash_suicide
    :summary: Splash radius setting for the suicide blast.
@@ -2082,9 +1647,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 350
       god-setting: 350
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-splash-templarmg
    :name: sk_dmg_splash_templarmg
    :summary: Splash radius setting for the Templar machine gun grenade.
@@ -2095,9 +1657,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 120
       brute-setting: 120
       god-setting: 120
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-dmg-splash-tripmine
    :name: sk_dmg_splash_tripmine
@@ -2111,9 +1670,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 300
       god-setting: 300
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-dmg-tripmine1
    :name: sk_dmg_tripmine1
    :stats:
@@ -2124,9 +1680,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 750
       brute-setting: 750
       god-setting: 750
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmg-walker-primary
    :name: sk_dmg_walker_primary
@@ -2139,9 +1692,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 70
       god-setting: 80
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmgradius-at1
    :name: sk_dmgradius_at1
    :stats:
@@ -2152,9 +1702,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 30
       brute-setting: 30
       god-setting: 30
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmgradius-at2
    :name: sk_dmgradius_at2
@@ -2167,9 +1714,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 50
       god-setting: 50
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmgradius-at3
    :name: sk_dmgradius_at3
    :stats:
@@ -2180,9 +1724,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 70
       brute-setting: 70
       god-setting: 70
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmgradius-at4
    :name: sk_dmgradius_at4
@@ -2195,9 +1736,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 80
       god-setting: 80
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmgradius-fuelbomb
    :name: sk_dmgradius_fuelbomb
    :stats:
@@ -2208,9 +1746,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 170
       brute-setting: 170
       god-setting: 170
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dmgradius-fuelbombgas
    :name: sk_dmgradius_fuelbombgas
@@ -2223,9 +1758,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 350
       god-setting: 350
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dmultiplier
    :name: sk_dmultiplier
    :stats:
@@ -2236,9 +1768,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 40
       brute-setting: 50
       god-setting: 75
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-dynamiterandomrespawn
    :name: sk_dynamiteRandomRespawn
@@ -2251,9 +1780,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 10
       god-setting: 10
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-dynamiterespawn
    :name: sk_dynamiteRespawn
    :stats:
@@ -2265,9 +1791,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 195
       god-setting: 250
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-engineer-spawn-delay
    :name: sk_engineer_spawn_delay
    :stats:
@@ -2277,9 +1800,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 180000
       brute-setting: 180000
       god-setting: 180000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-food-hot-hp
    :name: sk_food_hot_hp
@@ -2295,8 +1815,6 @@ See :doc:`../cvars` for flags.
 
    Used instead of :igw:cvar:`sk-food-hp` when the food is burning. Healing
    is capped at the player's maximum health. See :doc:`/powerups`.
-
-   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-food-hp
    :name: sk_food_hp
@@ -2314,8 +1832,6 @@ See :doc:`../cvars` for flags.
    below maximum health, and healing is capped at that maximum. See
    :doc:`/powerups` for cooking and respawning.
 
-   @TODO: Verify the engine default and complete valid values.
-
 .. igw:cvar:: sk-food-respawn
    :name: sk_food_respawn
    :summary: Food respawn interval, in seconds.
@@ -2332,8 +1848,6 @@ See :doc:`../cvars` for flags.
    to a randomly selected free food spawn location. An item's ``wait``
    and ``random`` properties can change the delay. See :doc:`/powerups`.
 
-   @TODO: Verify the engine default and complete valid values.
-
 .. igw:cvar:: sk-health-atturret1
    :name: sk_health_atturret1
    :summary: Health setting for the anti-tank turret at level 1.
@@ -2345,9 +1859,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 1500
       brute-setting: 1500
       god-setting: 1500
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-health-atturret2
    :name: sk_health_atturret2
@@ -2361,9 +1872,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 2300
       god-setting: 2500
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-health-atturret3
    :name: sk_health_atturret3
    :summary: Health setting for the anti-tank turret at level 3.
@@ -2376,16 +1884,10 @@ See :doc:`../cvars` for flags.
       brute-setting: 3500
       god-setting: 3500
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-health-atturret4
    :name: sk_health_atturret4
    :stats:
       flags: None listed
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-health-bomber
    :name: sk_health_bomber
@@ -2397,9 +1899,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 350
       brute-setting: 430
       god-setting: 500
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-health-bosswalker
    :name: sk_health_bosswalker
@@ -2413,17 +1912,11 @@ See :doc:`../cvars` for flags.
       brute-setting: 7500
       god-setting: 9500
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-health-civ
    :name: sk_health_civ
    :stats:
       flags: None listed
       easy-setting: 150
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-health-conscript
    :name: sk_health_conscript
@@ -2437,9 +1930,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 150
       god-setting: 175
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-health-engineer
    :name: sk_health_engineer
    :summary: Health setting for Engineers.
@@ -2451,9 +1941,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 190
       brute-setting: 220
       god-setting: 230
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-health-fuelbomb1
    :name: sk_health_fuelbomb1
@@ -2467,24 +1954,15 @@ See :doc:`../cvars` for flags.
       brute-setting: 400
       god-setting: 400
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-health-fuelbomb2
    :name: sk_health_fuelbomb2
    :stats:
       flags: None listed
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-health-fuelbomb3
    :name: sk_health_fuelbomb3
    :stats:
       flags: None listed
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-health-grenadier
    :name: sk_health_grenadier
@@ -2498,9 +1976,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 185
       god-setting: 200
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-health-herrad
    :name: sk_health_herrad
    :summary: Health setting for Herrads.
@@ -2512,9 +1987,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 190
       brute-setting: 230
       god-setting: 250
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-health-legionnaire
    :name: sk_health_legionnaire
@@ -2528,9 +2000,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 225
       god-setting: 250
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-health-mgturret1
    :name: sk_health_mgturret1
    :summary: Health setting for the machine gun turret at level 1.
@@ -2542,9 +2011,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 900
       brute-setting: 900
       god-setting: 900
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-health-mgturret2
    :name: sk_health_mgturret2
@@ -2558,9 +2024,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 1500
       god-setting: 1500
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-health-mgturret3
    :name: sk_health_mgturret3
    :summary: Health setting for the machine gun turret at level 3.
@@ -2572,9 +2035,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 1900
       brute-setting: 1900
       god-setting: 2000
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-health-mgturret4
    :name: sk_health_mgturret4
@@ -2588,9 +2048,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 2500
       god-setting: 2500
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-health-militia
    :name: sk_health_militia
    :summary: Health setting for militia.
@@ -2602,9 +2059,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 65
       brute-setting: 60
       god-setting: 50
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-health-officer
    :name: sk_health_officer
@@ -2618,9 +2072,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 1500
       god-setting: 2500
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-health-ontos
    :name: sk_health_ontos
    :summary: Health setting for Ontos vehicles.
@@ -2632,9 +2083,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 1875
       brute-setting: 2000
       god-setting: 2500
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-health-player
    :name: sk_health_player
@@ -2648,9 +2096,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 200
       god-setting: 200
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-health-poison
    :name: sk_health_poison
    :summary: Health setting for the poison trap.
@@ -2662,9 +2107,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 10000
       brute-setting: 10000
       god-setting: 10000
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-health-scarab
    :name: sk_health_scarab
@@ -2678,9 +2120,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 1350
       god-setting: 1550
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-health-spy
    :name: sk_health_spy
    :summary: Health setting for Spies.
@@ -2692,9 +2131,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 190
       brute-setting: 220
       god-setting: 230
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-health-stronghold
    :name: sk_health_stronghold
@@ -2708,9 +2144,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 3000
       god-setting: 3000
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-health-supportstation
    :name: sk_health_supportstation
    :summary: Health setting for the support station.
@@ -2722,9 +2155,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 1500
       brute-setting: 1500
       god-setting: 1500
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-health-templar
    :name: sk_health_templar
@@ -2738,9 +2168,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 230
       god-setting: 250
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-health-tripmine
    :name: sk_health_tripmine
    :summary: Health setting for the trip mine.
@@ -2753,9 +2180,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 25
       god-setting: 25
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-health-walker
    :name: sk_health_walker
    :summary: Health setting for Walkers.
@@ -2767,9 +2191,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 4500
       brute-setting: 4500
       god-setting: 5000
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 .. igw:cvar:: sk-immortal-time
    :name: sk_immortal_time
    :stats:
@@ -2781,16 +2202,10 @@ See :doc:`../cvars` for flags.
       brute-setting: 3000
       god-setting: 3000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-includespy
    :name: sk_includespy
    :stats:
       flags: None listed
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-jewel-power
    :name: sk_jewel_power
@@ -2808,9 +2223,6 @@ See :doc:`../cvars` for flags.
    quantity for the Power reward instead. This setting is also passed to
    the loot-score calculation. See :doc:`/powerups`.
 
-   @TODO: Verify the engine default, complete valid values, and loot-score
-   accounting.
-
 .. igw:cvar:: sk-jewel-respawn
    :name: sk_jewel_respawn
    :summary: Jewel respawn interval, in seconds.
@@ -2827,8 +2239,6 @@ See :doc:`../cvars` for flags.
    location. An item's ``wait`` and ``random`` properties can change the
    delay. Dropped jewels do not respawn. See :doc:`/powerups`.
 
-   @TODO: Verify the engine default and complete valid values.
-
 .. igw:cvar:: sk-level-four
    :name: sk_level_four
    :stats:
@@ -2839,9 +2249,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 100
       brute-setting: 100
       god-setting: 100
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-level-one
    :name: sk_level_one
@@ -2854,9 +2261,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 70
       god-setting: 70
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-level-three
    :name: sk_level_three
    :stats:
@@ -2867,9 +2271,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 90
       brute-setting: 90
       god-setting: 90
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-level-two
    :name: sk_level_two
@@ -2882,9 +2283,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 80
       god-setting: 80
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-max-ammo-40rge
    :name: sk_max_ammo_40rge
    :stats:
@@ -2895,9 +2293,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 5
       brute-setting: 5
       god-setting: 5
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-max-ammo-dynamite
    :name: sk_max_ammo_dynamite
@@ -2910,9 +2305,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 3
       god-setting: 3
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-max-ammo-flamethrower
    :name: sk_max_ammo_flamethrower
    :stats:
@@ -2923,9 +2315,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 100
       brute-setting: 100
       god-setting: 100
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-max-ammo-hgrenade
    :name: sk_max_ammo_hgrenade
@@ -2938,9 +2327,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 3
       god-setting: 3
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-max-ammo-hmg
    :name: sk_max_ammo_hmg
    :stats:
@@ -2951,9 +2337,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 150
       brute-setting: 150
       god-setting: 150
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-max-ammo-hrifle
    :name: sk_max_ammo_hrifle
@@ -2966,9 +2349,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 20
       god-setting: 20
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-max-ammo-landmine
    :name: sk_max_ammo_landmine
    :stats:
@@ -2979,9 +2359,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 5
       brute-setting: 5
       god-setting: 5
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-max-ammo-lightrifle
    :name: sk_max_ammo_lightrifle
@@ -2994,9 +2371,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 32
       god-setting: 32
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-max-ammo-lmg2
    :name: sk_max_ammo_lmg2
    :stats:
@@ -3007,9 +2381,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 150
       brute-setting: 150
       god-setting: 150
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-max-ammo-lpistol
    :name: sk_max_ammo_lpistol
@@ -3022,9 +2393,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 32
       god-setting: 32
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-max-ammo-mg
    :name: sk_max_ammo_mg
    :stats:
@@ -3035,9 +2403,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 90
       brute-setting: 90
       god-setting: 90
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-max-ammo-minigun
    :name: sk_max_ammo_minigun
@@ -3050,9 +2415,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 100
       god-setting: 100
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-max-ammo-molotov
    :name: sk_max_ammo_molotov
    :stats:
@@ -3064,9 +2426,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 5
       god-setting: 5
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-max-ammo-radio
    :name: sk_max_ammo_radio
    :stats:
@@ -3077,9 +2436,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 1
       god-setting: 1
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-max-ammo-rocketlauncher
    :name: sk_max_ammo_rocketlauncher
    :stats:
@@ -3089,9 +2445,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 1
       brute-setting: 1
       god-setting: 1
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-max-ammo-satchel
    :name: sk_max_ammo_satchel
@@ -3104,9 +2457,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 2
       god-setting: 2
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-max-ammo-sniper
    :name: sk_max_ammo_sniper
    :stats:
@@ -3118,9 +2468,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 16
       god-setting: 16
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-max-dynamite
    :name: sk_max_dynamite
    :stats:
@@ -3131,9 +2478,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 3
       brute-setting: 2
       god-setting: 2
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-max-food
    :name: sk_max_food
@@ -3152,8 +2496,6 @@ See :doc:`../cvars` for flags.
    ``sk_max_food`` element. Cooking a pickup does not add another food item.
    See :doc:`/powerups`.
 
-   @TODO: Verify the engine default and complete valid values.
-
 .. igw:cvar:: sk-max-jewel
    :name: sk_max_jewel
    :summary: Cap on the number of jewel pickups placed at round start.
@@ -3170,8 +2512,6 @@ See :doc:`../cvars` for flags.
    locations. Wave-script ``SKILLSETTINGS`` can override it through a
    ``sk_max_jewel`` element. See :doc:`/powerups` and :doc:`/scripts/waves`.
 
-   @TODO: Verify the engine default and complete valid values.
-
 .. igw:cvar:: sk-max-radio
    :name: sk_max_radio
    :stats:
@@ -3182,9 +2522,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 3
       god-setting: 3
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-max-rocket
    :name: sk_max_rocket
    :stats:
@@ -3194,9 +2531,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 2
       brute-setting: 2
       god-setting: 2
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-max-secammo-hrifle
    :name: sk_max_secammo_hrifle
@@ -3209,9 +2543,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 3
       god-setting: 3
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-max-secammo-mg
    :name: sk_max_secammo_mg
    :stats:
@@ -3222,9 +2553,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 3
       brute-setting: 3
       god-setting: 3
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-max-suicide
    :name: sk_max_suicide
@@ -3237,24 +2565,15 @@ See :doc:`../cvars` for flags.
       brute-setting: 1
       god-setting: 1
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-morale-max
    :name: sk_morale_max
    :stats:
       flags: None listed
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-morale-start
    :name: sk_morale_start
    :stats:
       flags: None listed
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-npc-dynamite-splash-dmg
    :name: sk_npc_dynamite_splash_dmg
@@ -3266,9 +2585,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 500
       god-setting: 1200
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-npc-dynamite-splash-radius
    :name: sk_npc_dynamite_splash_radius
    :stats:
@@ -3278,9 +2594,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 235
       brute-setting: 230
       god-setting: 235
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-npc-moralecost
    :name: sk_npc_moralecost
@@ -3293,9 +2606,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 1
       god-setting: 1
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-npc-splash-suicide
    :name: sk_npc_splash_suicide
    :summary: Radius of the NPC suicide blast.
@@ -3306,9 +2616,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 200
       brute-setting: 270
       god-setting: 300
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-npc-treshold
    :name: sk_npc_treshold
@@ -3321,9 +2628,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 20
       god-setting: 20
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-numbombers
    :name: sk_numbombers
    :stats:
@@ -3333,9 +2637,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 5
       brute-setting: 6
       god-setting: 6
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-officer-firstspawntime
    :name: sk_officer_firstspawntime
@@ -3348,9 +2649,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 200000
       god-setting: 200000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-officer-morale
    :name: sk_officer_morale
    :stats:
@@ -3361,9 +2659,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 5
       brute-setting: 5
       god-setting: 5
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-officer-regen-force
    :name: sk_officer_regen_force
@@ -3376,9 +2671,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 5
       god-setting: 5
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-officer-regen-radius
    :name: sk_officer_regen_radius
    :stats:
@@ -3389,9 +2681,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 400
       brute-setting: 400
       god-setting: 400
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-officer-respawntime
    :name: sk_officer_respawntime
@@ -3404,9 +2693,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 27000
       god-setting: 27000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-officer-vistime
    :name: sk_officer_vistime
    :stats:
@@ -3417,9 +2703,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 3000
       brute-setting: 2000
       god-setting: 1000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-ontos-angle-change
    :name: sk_ontos_angle_change
@@ -3432,9 +2715,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 100
       god-setting: 100
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-player-moralecost
    :name: sk_player_moralecost
    :stats:
@@ -3445,9 +2725,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 3
       brute-setting: 3
       god-setting: 3
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-player-powerdeath
    :name: sk_player_powerdeath
@@ -3460,9 +2737,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 0
       god-setting: 0
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-plevel-four
    :name: sk_plevel_four
    :stats:
@@ -3473,9 +2747,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 8
       brute-setting: 8
       god-setting: 8
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-plevel-one
    :name: sk_plevel_one
@@ -3488,9 +2759,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 1
       god-setting: 1
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-plevel-three
    :name: sk_plevel_three
    :stats:
@@ -3501,9 +2769,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 4
       brute-setting: 4
       god-setting: 4
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-plevel-two
    :name: sk_plevel_two
@@ -3516,9 +2781,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 2
       god-setting: 2
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-poison-life
    :name: sk_poison_life
    :stats:
@@ -3529,9 +2791,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 90000
       brute-setting: 90000
       god-setting: 90000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-poison-range
    :name: sk_poison_range
@@ -3544,9 +2803,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 65
       god-setting: 65
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-poison-speed-penalty
    :name: sk_poison_speed_penalty
    :stats:
@@ -3558,9 +2814,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 0.50
       god-setting: 0.50
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-power-bomber
    :name: sk_power_bomber
    :stats:
@@ -3570,9 +2823,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 6
       brute-setting: 6
       god-setting: 5
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-power-bosswalker
    :name: sk_power_bosswalker
@@ -3585,9 +2835,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 300
       god-setting: 300
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-power-conscript
    :name: sk_power_conscript
    :stats:
@@ -3599,9 +2846,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 1
       god-setting: 1
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-power-engineer
    :name: sk_power_engineer
    :stats:
@@ -3611,9 +2855,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 100
       brute-setting: 100
       god-setting: 100
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-power-grenadier
    :name: sk_power_grenadier
@@ -3626,9 +2867,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 3
       god-setting: 2
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-power-herrad
    :name: sk_power_herrad
    :stats:
@@ -3639,9 +2877,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 4
       brute-setting: 4
       god-setting: 3
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-power-legionnaire
    :name: sk_power_legionnaire
@@ -3654,9 +2889,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 4
       god-setting: 3
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-power-officer
    :name: sk_power_officer
    :stats:
@@ -3667,9 +2899,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 250
       brute-setting: 200
       god-setting: 200
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-power-ontos
    :name: sk_power_ontos
@@ -3682,9 +2911,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 100
       god-setting: 100
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-power-scarab
    :name: sk_power_scarab
    :stats:
@@ -3696,9 +2922,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 100
       god-setting: 90
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-power-spy
    :name: sk_power_spy
    :stats:
@@ -3708,9 +2931,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 25
       brute-setting: 25
       god-setting: 25
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-power-stronghold
    :name: sk_power_stronghold
@@ -3723,9 +2943,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 1
       god-setting: 1
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-power-walker
    :name: sk_power_walker
    :stats:
@@ -3736,9 +2953,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 200
       brute-setting: 175
       god-setting: 150
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-radio-radius
    :name: sk_radio_radius
@@ -3751,9 +2965,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 600
       god-setting: 600
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-radiorespawn
    :name: sk_radioRespawn
    :stats:
@@ -3763,9 +2974,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 60
       brute-setting: 60
       god-setting: 60
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-range-at1
    :name: sk_range_at1
@@ -3778,9 +2986,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 3000
       god-setting: 3000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-range-at2
    :name: sk_range_at2
    :stats:
@@ -3791,9 +2996,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 5000
       brute-setting: 5000
       god-setting: 5000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-range-at3
    :name: sk_range_at3
@@ -3806,9 +3008,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 9000
       god-setting: 9000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-range-mg1
    :name: sk_range_mg1
    :stats:
@@ -3819,9 +3018,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 1500
       brute-setting: 1500
       god-setting: 1500
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-range-mg2
    :name: sk_range_mg2
@@ -3834,9 +3030,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 1800
       god-setting: 1800
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-range-mg3
    :name: sk_range_mg3
    :stats:
@@ -3847,9 +3040,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 2500
       brute-setting: 2500
       god-setting: 2500
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-range-mg4
    :name: sk_range_mg4
@@ -3862,9 +3052,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 3900
       god-setting: 3900
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-roamerspawn-delay
    :name: sk_roamerspawn_delay
    :stats:
@@ -3875,9 +3062,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 10000
       brute-setting: 10000
       god-setting: 10000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-roamerspawn-random
    :name: sk_roamerspawn_random
@@ -3890,9 +3074,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 5000
       god-setting: 5000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-rocketlauncherrespawn
    :name: sk_rocketlauncherRespawn
    :stats:
@@ -3902,9 +3083,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 300
       brute-setting: 300
       god-setting: 300
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-satchel-maxdist
    :name: sk_satchel_maxdist
@@ -3917,9 +3095,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 750
       god-setting: 750
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-scarab-angle-change
    :name: sk_scarab_angle_change
    :stats:
@@ -3931,9 +3106,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 150
       god-setting: 150
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-score-bomber
    :name: sk_score_bomber
    :stats:
@@ -3943,9 +3115,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 7
       brute-setting: 7
       god-setting: 7
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-score-bosswalker
    :name: sk_score_bosswalker
@@ -3958,9 +3127,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 300
       god-setting: 300
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-score-conscript
    :name: sk_score_conscript
    :stats:
@@ -3972,9 +3138,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 3
       god-setting: 3
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-score-engineer
    :name: sk_score_engineer
    :stats:
@@ -3984,9 +3147,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 100
       brute-setting: 100
       god-setting: 100
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-score-grenadier
    :name: sk_score_grenadier
@@ -3999,9 +3159,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 5
       god-setting: 5
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-score-herrad
    :name: sk_score_herrad
    :stats:
@@ -4012,9 +3169,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 5
       brute-setting: 5
       god-setting: 5
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-score-legionnaire
    :name: sk_score_legionnaire
@@ -4027,9 +3181,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 7
       god-setting: 7
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-score-officer
    :name: sk_score_officer
    :stats:
@@ -4040,9 +3191,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 300
       brute-setting: 300
       god-setting: 300
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-score-ontos
    :name: sk_score_ontos
@@ -4055,9 +3203,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 150
       god-setting: 150
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-score-scarab
    :name: sk_score_scarab
    :stats:
@@ -4069,9 +3214,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 100
       god-setting: 100
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-score-spy
    :name: sk_score_spy
    :stats:
@@ -4081,9 +3223,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 25
       brute-setting: 25
       god-setting: 25
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-score-turretupgradepercent
    :name: sk_score_turretupgradepercent
@@ -4096,9 +3235,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 10
       god-setting: 10
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-score-walker
    :name: sk_score_walker
    :stats:
@@ -4109,9 +3245,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 200
       brute-setting: 200
       god-setting: 200
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-spawntime
    :name: sk_spawntime
@@ -4124,9 +3257,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 8000
       god-setting: 8000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-speed-bosswalker
    :name: sk_speed_bosswalker
    :stats:
@@ -4137,9 +3267,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 35
       brute-setting: 35
       god-setting: 35
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-speed-ontos
    :name: sk_speed_ontos
@@ -4152,9 +3279,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 70
       god-setting: 70
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-speed-scarab
    :name: sk_speed_scarab
    :stats:
@@ -4166,9 +3290,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 80
       god-setting: 80
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-speed-walker
    :name: sk_speed_walker
    :stats:
@@ -4179,9 +3300,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 70
       brute-setting: 70
       god-setting: 70
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-spread-primary-hmg
    :name: sk_spread_primary_hmg
@@ -4195,9 +3313,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 140
       god-setting: 140
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-spread-primary-lmg2
    :name: sk_spread_primary_lmg2
    :summary: Primary attack spread for the light machine gun.
@@ -4209,9 +3324,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 100
       brute-setting: 100
       god-setting: 100
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-spread-primary-lrifle
    :name: sk_spread_primary_lrifle
@@ -4225,9 +3337,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 15
       god-setting: 15
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-spread-primary-mg
    :name: sk_spread_primary_mg
    :summary: Primary attack spread for the machine gun.
@@ -4239,9 +3348,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 140
       brute-setting: 140
       god-setting: 140
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-spread-primary-minigun
    :name: sk_spread_primary_minigun
@@ -4255,9 +3361,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 200
       god-setting: 200
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-spread-primary-pistol
    :name: sk_spread_primary_pistol
    :summary: Primary attack spread for the pistol.
@@ -4269,9 +3372,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 10
       brute-setting: 10
       god-setting: 10
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-spread-primary-sniper
    :name: sk_spread_primary_sniper
@@ -4285,9 +3385,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 60
       god-setting: 60
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-spread-primary-templarmg
    :name: sk_spread_primary_templarmg
    :summary: Primary attack spread for the Templar machine gun.
@@ -4298,9 +3395,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 120
       brute-setting: 100
       god-setting: 110
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 
 .. igw:cvar:: sk-spread-secondary-lmg2
    :name: sk_spread_secondary_lmg2
@@ -4314,9 +3408,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 10
       god-setting: 10
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-spread-secondary-lrifle
    :name: sk_spread_secondary_lrifle
    :summary: Light rifle spread when using ironsights.
@@ -4329,9 +3420,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 5
       god-setting: 5
 
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
-
 .. igw:cvar:: sk-spread-secondary-sniper
    :name: sk_spread_secondary_sniper
    :summary: Sniper rifle spread when using the scope.
@@ -4343,9 +3431,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 0
       brute-setting: 0
       god-setting: 0
-
-   @TODO: Verify the engine default, complete valid values, and any
-   remaining behavior or unit details against the game code.
 .. igw:cvar:: sk-spy-spawn-delay
    :name: sk_spy_spawn_delay
    :stats:
@@ -4355,9 +3440,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 120000
       brute-setting: 120000
       god-setting: 120000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-start-cash
    :name: sk_start_cash
@@ -4370,9 +3452,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 500
       god-setting: 400
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-strike-cooldown
    :name: sk_strike_cooldown
    :stats:
@@ -4383,9 +3462,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 60000
       god-setting: 60000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-strike-countdown
    :name: sk_strike_countdown
    :stats:
@@ -4395,16 +3471,10 @@ See :doc:`../cvars` for flags.
       brute-setting: 20000
       god-setting: 15000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-strike-gap
    :name: sk_strike_gap
    :stats:
       flags: None listed
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-stronghold-morale
    :name: sk_stronghold_morale
@@ -4417,9 +3487,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 5
       god-setting: 5
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-suiciderandomrespawn
    :name: sk_suicideRandomRespawn
    :stats:
@@ -4430,9 +3497,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 25
       brute-setting: 25
       god-setting: 25
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-suiciderespawn
    :name: sk_suicideRespawn
@@ -4445,9 +3509,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 150
       god-setting: 150
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-support-ammoadd
    :name: sk_support_ammoAdd
    :stats:
@@ -4458,9 +3519,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 0.5
       brute-setting: 0.5
       god-setting: 0.5
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-support-healthperc
    :name: sk_support_healthPerc
@@ -4473,9 +3531,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 0.5
       god-setting: 0.5
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-tank-maxspeed
    :name: sk_tank_maxspeed
    :stats:
@@ -4486,9 +3541,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 365
       brute-setting: 365
       god-setting: 365
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-upgrade-adren
    :name: sk_upgrade_adren
@@ -4501,9 +3553,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 350
       god-setting: 350
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-upgrade-brute
    :name: sk_upgrade_brute
    :stats:
@@ -4514,9 +3563,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 450
       brute-setting: 450
       god-setting: 450
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-upgrade-dynamite
    :name: sk_upgrade_dynamite
@@ -4529,9 +3575,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 450
       god-setting: 450
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-upgrade-fire1
    :name: sk_upgrade_fire1
    :stats:
@@ -4542,9 +3585,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 150
       brute-setting: 150
       god-setting: 150
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-upgrade-fire2
    :name: sk_upgrade_fire2
@@ -4557,9 +3597,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 250
       god-setting: 250
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-upgrade-fire3
    :name: sk_upgrade_fire3
    :stats:
@@ -4571,9 +3608,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 350
       god-setting: 350
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-upgrade-fire4
    :name: sk_upgrade_fire4
    :stats:
@@ -4584,9 +3618,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 500
       brute-setting: 500
       god-setting: 500
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-upgrade-health1
    :name: sk_upgrade_health1
@@ -4604,8 +3635,6 @@ See :doc:`../cvars` for flags.
    sale refund. :igw:cvar:`sk-upgrade-newhealth1` sets the resulting maximum
    health.
 
-   @TODO: Verify the engine default and complete valid values.
-
 .. igw:cvar:: sk-upgrade-health2
    :name: sk_upgrade_health2
    :summary: Purchase price in Power for Health Upgrade 2.
@@ -4621,8 +3650,6 @@ See :doc:`../cvars` for flags.
    Charged when buying :igw:upgrade:`health2` and used to calculate its
    sale refund. :igw:cvar:`sk-upgrade-newhealth2` sets the resulting maximum
    health.
-
-   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-upgrade-health3
    :name: sk_upgrade_health3
@@ -4640,8 +3667,6 @@ See :doc:`../cvars` for flags.
    sale refund. :igw:cvar:`sk-upgrade-newhealth3` sets the resulting maximum
    health.
 
-   @TODO: Verify the engine default and complete valid values.
-
 .. igw:cvar:: sk-upgrade-health4
    :name: sk_upgrade_health4
    :summary: Purchase price in Power for Health Upgrade 4.
@@ -4658,8 +3683,6 @@ See :doc:`../cvars` for flags.
    sale refund. :igw:cvar:`sk-upgrade-newhealth4` sets the resulting maximum
    health.
 
-   @TODO: Verify the engine default and complete valid values.
-
 .. igw:cvar:: sk-upgrade-hmg
    :name: sk_upgrade_hmg
    :stats:
@@ -4671,9 +3694,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 550
       god-setting: 550
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-upgrade-medkit
    :name: sk_upgrade_medkit
    :stats:
@@ -4684,9 +3704,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 300
       brute-setting: 300
       god-setting: 300
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-upgrade-newhealth1
    :name: sk_upgrade_newhealth1
@@ -4704,8 +3721,6 @@ See :doc:`../cvars` for flags.
    Health level. This is an absolute maximum, not additional health.
    :igw:cvar:`sk-upgrade-health1` sets the purchase price.
 
-   @TODO: Verify the engine default and complete valid values.
-
 .. igw:cvar:: sk-upgrade-newhealth2
    :name: sk_upgrade_newhealth2
    :summary: Maximum health in health points with Health Upgrade 2.
@@ -4721,8 +3736,6 @@ See :doc:`../cvars` for flags.
    Sets maximum health when :igw:upgrade:`health2` is the highest owned
    Health level. This is an absolute maximum, not additional health.
    :igw:cvar:`sk-upgrade-health2` sets the purchase price.
-
-   @TODO: Verify the engine default and complete valid values.
 
 .. igw:cvar:: sk-upgrade-newhealth3
    :name: sk_upgrade_newhealth3
@@ -4740,8 +3753,6 @@ See :doc:`../cvars` for flags.
    Health level. This is an absolute maximum, not additional health.
    :igw:cvar:`sk-upgrade-health3` sets the purchase price.
 
-   @TODO: Verify the engine default and complete valid values.
-
 .. igw:cvar:: sk-upgrade-newhealth4
    :name: sk_upgrade_newhealth4
    :summary: Maximum health in health points with Health Upgrade 4.
@@ -4758,8 +3769,6 @@ See :doc:`../cvars` for flags.
    Health level. This is an absolute maximum, not additional health.
    :igw:cvar:`sk-upgrade-health4` sets the purchase price.
 
-   @TODO: Verify the engine default and complete valid values.
-
 .. igw:cvar:: sk-upgrade-reload-weap1
    :name: sk_upgrade_reload_weap1
    :stats:
@@ -4770,9 +3779,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 0.80
       brute-setting: 0.80
       god-setting: 0.80
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-upgrade-reload-weap2
    :name: sk_upgrade_reload_weap2
@@ -4785,9 +3791,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 0.70
       god-setting: 0.70
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-upgrade-reload-weap3
    :name: sk_upgrade_reload_weap3
    :stats:
@@ -4798,9 +3801,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 0.60
       brute-setting: 0.60
       god-setting: 0.60
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-upgrade-reload-weap4
    :name: sk_upgrade_reload_weap4
@@ -4813,9 +3813,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 0.50
       god-setting: 0.50
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-upgrade-spawn
    :name: sk_upgrade_spawn
    :stats:
@@ -4826,9 +3823,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 4000
       brute-setting: 4000
       god-setting: 4000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-upgrade-spawning
    :name: sk_upgrade_spawning
@@ -4841,9 +3835,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 500
       god-setting: 500
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-upgrade-suicide
    :name: sk_upgrade_suicide
    :stats:
@@ -4854,9 +3845,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 800
       brute-setting: 800
       god-setting: 800
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-upgrade-weap1
    :name: sk_upgrade_weap1
@@ -4869,9 +3857,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 1.25
       god-setting: 1.25
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-upgrade-weap2
    :name: sk_upgrade_weap2
    :stats:
@@ -4882,9 +3867,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 1.35
       brute-setting: 1.35
       god-setting: 1.35
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-upgrade-weap3
    :name: sk_upgrade_weap3
@@ -4897,9 +3879,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 1.45
       god-setting: 1.45
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-upgrade-weap4
    :name: sk_upgrade_weap4
    :stats:
@@ -4910,9 +3889,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 1.60
       brute-setting: 1.60
       god-setting: 1.60
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-upgradetime-atupgr2
    :name: sk_upgradetime_atupgr2
@@ -4925,9 +3901,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 25000
       god-setting: 27000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-upgradetime-atupgr3
    :name: sk_upgradetime_atupgr3
    :stats:
@@ -4939,32 +3912,20 @@ See :doc:`../cvars` for flags.
       brute-setting: 35000
       god-setting: 38000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-upgradetime-atupgr4
    :name: sk_upgradetime_atupgr4
    :stats:
       flags: None listed
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-upgradetime-fuelupgr2
    :name: sk_upgradetime_fuelupgr2
    :stats:
       flags: None listed
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-upgradetime-fuelupgr3
    :name: sk_upgradetime_fuelupgr3
    :stats:
       flags: None listed
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-upgradetime-mgupgr2
    :name: sk_upgradetime_mgupgr2
@@ -4977,9 +3938,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 13000
       god-setting: 15000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-upgradetime-mgupgr3
    :name: sk_upgradetime_mgupgr3
    :stats:
@@ -4990,9 +3948,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 20000
       brute-setting: 25000
       god-setting: 28000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-upgradetime-mgupgr4
    :name: sk_upgradetime_mgupgr4
@@ -5005,9 +3960,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 30000
       god-setting: 35000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-vehicle-moralecost
    :name: sk_vehicle_moralecost
    :stats:
@@ -5018,9 +3970,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 25
       brute-setting: 25
       god-setting: 25
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-walker-angle-change
    :name: sk_walker_angle_change
@@ -5033,9 +3982,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 150
       god-setting: 150
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-wavespawn-delay
    :name: sk_wavespawn_delay
    :stats:
@@ -5046,9 +3992,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 15000
       brute-setting: 15000
       god-setting: 15000
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-wavespawn-random
    :name: sk_wavespawn_random
@@ -5061,9 +4004,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 5000
       god-setting: 5000
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-weapcost-40rte
    :name: sk_weapcost_40rte
    :stats:
@@ -5074,9 +4014,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 430
       brute-setting: 430
       god-setting: 430
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-weapcost-dynamite
    :name: sk_weapcost_dynamite
@@ -5089,9 +4026,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 250
       god-setting: 250
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-weapcost-flamer
    :name: sk_weapcost_flamer
    :stats:
@@ -5102,9 +4036,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 550
       brute-setting: 550
       god-setting: 550
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-weapcost-hgrenade
    :name: sk_weapcost_hgrenade
@@ -5117,9 +4048,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 100
       god-setting: 100
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-weapcost-hmg
    :name: sk_weapcost_hmg
    :stats:
@@ -5130,9 +4058,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 380
       brute-setting: 380
       god-setting: 380
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-weapcost-landmine
    :name: sk_weapcost_landmine
@@ -5145,9 +4070,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 150
       god-setting: 150
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-weapcost-lmg
    :name: sk_weapcost_lmg
    :stats:
@@ -5158,9 +4080,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 130
       brute-setting: 130
       god-setting: 130
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-weapcost-mg
    :name: sk_weapcost_mg
@@ -5173,9 +4092,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 375
       god-setting: 375
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-weapcost-satchel
    :name: sk_weapcost_satchel
    :stats:
@@ -5186,9 +4102,6 @@ See :doc:`../cvars` for flags.
       hard-setting: 750
       brute-setting: 750
       god-setting: 750
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
 
 .. igw:cvar:: sk-weapcost-shotgun
    :name: sk_weapcost_shotgun
@@ -5201,9 +4114,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 350
       god-setting: 350
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-weapcost-sniper
    :name: sk_weapcost_sniper
    :stats:
@@ -5215,9 +4125,6 @@ See :doc:`../cvars` for flags.
       brute-setting: 360
       god-setting: 360
 
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
-
 .. igw:cvar:: sk-weapcost-suicideatk
    :name: sk_weapcost_suicideatk
    :stats:
@@ -5228,6 +4135,3 @@ See :doc:`../cvars` for flags.
       hard-setting: 350
       brute-setting: 350
       god-setting: 350
-
-   @TODO: Document the behavior, units where applicable, engine default,
-   and valid values from registration or consuming code.
